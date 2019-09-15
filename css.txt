@@ -20,7 +20,8 @@ body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPh
   background: #0d0d17 !important;
 }
 .ipsPagination_page a, .ipsPagination_next a, .ipsPagination_last a, .ipsPagination_prev a, .ipsPagination_first a, a, .ipsBox_alt.ipsType_normal.ipsType_richText.ipsPad, 
-.ipsType_normal.ipsType_richText.ipsPad.ipsBox, .cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr div, .ipsButton.ipsButton_fullWidth.ipsButton_light
+.ipsType_normal.ipsType_richText.ipsPad.ipsBox, .cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr div, .ipsButton.ipsButton_fullWidth.ipsButton_light,
+.cTopicHovercard p
 {
   color: #b1bddf !important;
 }
