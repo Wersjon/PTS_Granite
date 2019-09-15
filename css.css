@@ -1,4 +1,4 @@
-/* PTS Granite 1.1 by Wersjon */
+/* PTS Granite 1.1_01 by Wersjon */
 .ipsMatch1
 {
   color: #b1bddf;
@@ -96,7 +96,7 @@ ul:not( .ipsMenu_keyNav ) .ipsMenu_item:not( .ipsMenu_itemClicked ):not( .ipsMen
 .ipsComment_feed.ipsType_medium.ipsPad_half div, .ipsSideMenu_list.ipsSideMenu_withRadios.ipsSideMenu_small.ipsType_normal, .ipsType_reset.ipsPad_half, .cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr, 
 .ipsAreaBackground.ipsType_center, .cke_dialog_contents, .cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr, 
 .ipsType_normal.ipsType_richText.ipsContained .ipsSpoiler_contents p, .ipsType_normal.ipsType_richText.ipsContained .ipsSpoiler_contents, #dupa tr, .ipsType_richText.ipsType_normal.ipsSpacer_top .ipsSpoiler p, .ipsType_richText.ipsType_normal.ipsSpacer_top .ipsSpoiler .ipsSpoiler_contents,
-.ipsImageAttach_thumb.ipsType_center
+.ipsImageAttach_thumb.ipsType_center, .ipsType_normal.ipsType_richText.ipsContained .cke_contents.cke_reset p
 {
   background: #141727 !important;
 }
