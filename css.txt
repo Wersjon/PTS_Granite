@@ -227,7 +227,7 @@ ul:not( .ipsMenu_keyNav ) .ipsMenu_item:not( .ipsMenu_itemClicked ):not( .ipsMen
 {
   min-width: 220px !important;
 }
-.cke_toolgroup span, .cke_button_icon.cke_button__ipspreview_icon
+.cke_toolgroup .cke_button span, .cke_button_icon.cke_button__ipspreview_icon
 {
   background-image: url("https://i.imgur.com/lasIUn3.png") !important;
   
