@@ -13,7 +13,7 @@ body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPh
 .ipsQuote_citation, .ipsWidget.ipsWidget_horizontal.ipsBox, .ipsReputationFilters.ipsPad_half.ipsClearfix.ipsClear, .ipsGrid_span4 div, #elInput_ProfileVideo, #elUserLink_menu, input,
 .ipsFieldRow_section, #elSearchWrapper div, #elSearchExpanded, .ipsPad_half.cUserHovercard, .ipsTooltip.ipsTooltip_bottom.ipsComment_inlineQuoteTooltip, .ipsType_normal.ipsType_richText.ipsContained .ipsSpoiler_header, 
 #elInput_messenger_to_wrapper, .ipsPad_half.ipsType_center.ipsAreaBackground_light, .ipsAreaBackground.ipsPad_half div, .ipsAreaBackground.ipsPad, .ipsSelectTree.ipsJS_show,
-.cke_dialog_title, .cke_dialog_body, #cke_dialog_footer_781, .ipsSpoiler div, #cke_1_contents .ipsSpoiler, .cke_dialog_footer, .ipsTable.ipsMatrix.ipsClear.ipsTable_responsive .ipsMatrixHeader.ipsType_center,
+.cke_dialog_title, .cke_dialog_body, #cke_dialog_footer_781, .ipsSpoiler div, #cke_1_contents .ipsSpoiler, .ipsType_normal.ipsType_richText.ipsContained .ipsSpoiler, .cke_dialog_footer, .ipsTable.ipsMatrix.ipsClear.ipsTable_responsive .ipsMatrixHeader.ipsType_center,
 .ipsTable.ipsMatrix.ipsClear.ipsTable_responsive .ipsMatrix_subHeader, .cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr a[data-mentionid], .ipsAlert
 {
   color: #b1bddf !important;
@@ -312,6 +312,10 @@ ul:not( .ipsMenu_keyNav ) .ipsMenu_item:not( .ipsMenu_itemClicked ):not( .ipsMen
 .ipsToggle.ipsToggle_off span
 {
   color: #0d0d17 !important;
+}
+.ipsType_normal.ipsType_richText.ipsContained .ipsSpoiler
+{
+  padding-bottom: 5px;
 }
 .ipsComment_feed.ipsType_medium.ipsPad_half .ipsList_reset .ipsComment.ipsClearfix
 {
