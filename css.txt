@@ -317,6 +317,10 @@ ul:not( .ipsMenu_keyNav ) .ipsMenu_item:not( .ipsMenu_itemClicked ):not( .ipsMen
 {
   padding-bottom: 5px;
 }
+.ipsSpoiler p
+{
+  margin-left: 5px;
+}
 .ipsComment_feed.ipsType_medium.ipsPad_half .ipsList_reset .ipsComment.ipsClearfix
 {
   border-left:  solid 1px #0d0d17 !important;
