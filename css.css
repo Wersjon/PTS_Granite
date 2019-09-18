@@ -1,4 +1,4 @@
-/* PTS Granite 1.2_01 by Wersjon */
+/* PTS Granite 1.2_03 by Wersjon */
 /* [BGC]Color && Background */
 body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini.ipsPhotoPanel_notPhone, .ipsType_normal.ipsType_richText.ipsContained div,
 .subhead, #elProfileStats, .ipsLoading, .ipsMenu_headerBar, .ipsMenu_footerBar, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini, .ipsButtonRow.ipsClearfix a,
@@ -59,7 +59,7 @@ body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPh
 .ipsSideMenu_item.ipsSideMenu_itemActive a, .ipsDataItem_generic.ipsDataItem_size2.ipsPos_top.ipsType_right, .ipsDataItem_subList.ipsList_inline, .ipsMatrix_highlighted,
 .cke_panel_block.cke_colorblock table td:hover a, .cke_colorauto:hover, .ipsHide.ipsMenu.ipsMenu_normal.ipsPad_half.cTagPopup.ipsMenu_topCenter, #dupa tr:nth-child(2n), 
 .ipsPad_half.ipsList_reset.ipsGrid.ipsGrid_collapsePhone, .ipsComment_content.ipsType_medium.ipsFaded_withHover, .cPost_contentWrap.ipsPad .ipsType_normal.ipsType_richText.ipsContained,
-.ipsDataItem_generic.ipsDataItem_size2.ipsType_center.ipsResponsive_hidePhone
+.ipsDataItem_generic.ipsDataItem_size2.ipsType_center.ipsResponsive_hidePhone, .ipsButtonRow.ipsPos_right.ipsClearfix li .ipsCursor_pointer
 {
 	background: #11121f !important;  
 }
@@ -84,7 +84,7 @@ ul:not( .ipsMenu_keyNav ) .ipsMenu_item:not( .ipsMenu_itemClicked ):not( .ipsMen
 .ipsAutocompleteMenu_item.ipsClearfix:hover div, .ipsAutocompleteMenu_item.ipsClearfix:hover, .ipsDataItem.ipsDataItem_responsivePhoto:hover div, .ipsDataItem.ipsDataItem_responsivePhoto:hover ul, 
 .ipsDataItem.ipsClearfix.ipsDataItem_unread.cMessage div, #cke_794_uiElement, .cke_dialog_ui_button, a[data-mentionid], .cke_colorauto, .cke_colormore, .cke_button.cke_button_on, 
 .ipsReact_button:hover, .ipsSpoiler_contents.cke_widget_editable, #dupa tr:nth-child(2n+1), .ipsEmoticons_item:hover, .ipsTabs_item.ipsType_center:hover, .ipsButton:hover, 
-.ipsCode, .ipsButtonBar li a:hover, .ipsPagination li:hover a, .ipsList_reset li .ipsSelectTree_item:hover
+.ipsCode, .ipsButtonBar li a:hover, .ipsPagination li:hover a, .ipsList_reset li .ipsSelectTree_item:hover, .ipsButtonRow.ipsPos_right.ipsClearfix li .ipsCursor_pointer.ipsButtonRow_active
 {
 	background: #181e37 !important;
 }
@@ -326,7 +326,10 @@ li, .cke_panel_grouptitle, .ipsType_richText.ipsType_medium.ipsSpacer_top.ipsSpa
 {
 	margin-right: 20px;
 }
-
+#elGallerySubmit_toolBar .ipsList_inline.ipsClearfix a
+{
+	margin: 5px 5px -10px;
+}
 /* [R] Rest / Weirdos */
 .ipsType_reset.ipsWidget_title::after, .ipsCommentCount::after, .ipsColumn.ipsColumn_fluid .ipsComment_content.ipsType_medium.ipsFaded_withHover::before, .ipsMenu::before,
 .ipsComposeArea_editor::before, .ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomRight::before, .ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomRight::after, .ipsMenu::after, 
