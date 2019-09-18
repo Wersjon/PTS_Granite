@@ -1,391 +1,379 @@
-/* PTS Granite 1.1_01 by Wersjon */
-.ipsMatch1
-{
-  color: #b1bddf;
-  background: #04040d;
-}
-::selection
-{
-  background: #b1bddf;
-  color: #0d0d17;
-}
+/* PTS Granite 1.2 by Wersjon */
+/* [BGC]Color && Background */
 body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini.ipsPhotoPanel_notPhone, .ipsType_normal.ipsType_richText.ipsContained div,
-.subhead, #elProfileStats, .ipsLoading.ipsLoading_noAnim, .ipsMenu_headerBar, .ipsMenu_footerBar, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini, .ipsButtonRow.ipsClearfix a,
-.ipsQuote_citation, .ipsWidget.ipsWidget_horizontal.ipsBox, .ipsReputationFilters.ipsPad_half.ipsClearfix.ipsClear, .ipsGrid_span4 div, #elInput_ProfileVideo, #elUserLink_menu, input,
-.ipsFieldRow_section, #elSearchWrapper div, #elSearchExpanded, .ipsPad_half.cUserHovercard, .ipsTooltip.ipsTooltip_bottom.ipsComment_inlineQuoteTooltip, .ipsType_normal.ipsType_richText.ipsContained .ipsSpoiler_header, 
-#elInput_messenger_to_wrapper, .ipsPad_half.ipsType_center.ipsAreaBackground_light, .ipsAreaBackground.ipsPad_half div, .ipsAreaBackground.ipsPad, .ipsSelectTree.ipsJS_show,
-.cke_dialog_title, .cke_dialog_body, #cke_dialog_footer_781, #cke_1_contents .ipsSpoiler, .ipsType_normal.ipsType_richText.ipsContained .ipsSpoiler, .cke_dialog_footer, .ipsTable.ipsMatrix.ipsClear.ipsTable_responsive .ipsMatrixHeader.ipsType_center,
-.ipsTable.ipsMatrix.ipsClear.ipsTable_responsive .ipsMatrix_subHeader, .cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr a[data-mentionid], .ipsAlert,
-.ipsMenu.ipsMenu_auto.ipsMenu_withStem.ipsHide.ipsMenu_bottomRight, .ipsMenu.ipsMenu_auto.ipsMenu_withStem.ipsHide.ipsMenu_topRight, .ipsType_normal.ipsType_richText.ipsContained .ipsQuote_citation.ipsQuote_open,
+.subhead, #elProfileStats, .ipsLoading, .ipsMenu_headerBar, .ipsMenu_footerBar, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini, .ipsButtonRow.ipsClearfix a,
+.ipsQuote_citation, .ipsWidget.ipsWidget_horizontal.ipsBox, .ipsReputationFilters.ipsPad_half.ipsClearfix.ipsClear, .ipsGrid_span4 div, #elInput_ProfileVideo, #elUserLink_menu, 
+.ipsFieldRow_section, #elSearchWrapper div, #elSearchExpanded, .ipsPad_half.cUserHovercard, .ipsTooltip.ipsTooltip_bottom.ipsComment_inlineQuoteTooltip, input,
+.ipsType_normal.ipsType_richText.ipsContained .ipsSpoiler_header, #elInput_messenger_to_wrapper, .ipsPad_half.ipsType_center.ipsAreaBackground_light, .ipsAreaBackground.ipsPad_half div, 
+.ipsAreaBackground.ipsPad, .ipsSelectTree.ipsJS_show, .cke_dialog_title, .cke_dialog_body, #cke_dialog_footer_781, #cke_1_contents .ipsSpoiler, .cke_dialog_footer,
+.ipsType_normal.ipsType_richText.ipsContained .ipsSpoiler, .ipsTable.ipsMatrix.ipsClear.ipsTable_responsive .ipsMatrixHeader.ipsType_center, .ipsQuote_citation.ipsQuote_open,
+.ipsTable.ipsMatrix.ipsClear.ipsTable_responsive .ipsMatrix_subHeader, .ipsMenu.ipsMenu_auto.ipsMenu_withStem.ipsHide, .ipsType_normal.ipsType_richText.ipsContained, 
+.cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr a[data-mentionid], .ipsAlert,
 .ipsMenu_itemCount, #elInput_status_by_member_wrapper, .ipsField_autocomplete.ipsField_fullWidth, .ipsFieldRow_content div div #elInput_topic_tags_wrapper, #topic_tags_prefix_menu,
-.ipsLoading.ipsTabs_loadingContent
+.ipsComment.ipsFieldRow_fullWidth.ipsAreaBackground_light.ipsPad div, .cGalleryLightbox_info
 {
-  color: #b1bddf !important;
-  background: #0d0d17 !important;
-}
-.ipsPagination_page a, .ipsPagination_next a, .ipsPagination_last a, .ipsPagination_prev a, .ipsPagination_first a, a, .ipsBox_alt.ipsType_normal.ipsType_richText.ipsPad, 
-.ipsType_normal.ipsType_richText.ipsPad.ipsBox, .cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr div, .ipsButton.ipsButton_fullWidth.ipsButton_light,
-.ipsType_richText.ipsType_normal p, .ipsBreadcrumb.ipsBreadcrumb_top.ipsFaded_withHover li, .ipsBreadcrumb.ipsBreadcrumb_bottom.ipsFaded_withHover li, .ipsType_richText.ipsType_small,
-.CodeMirror.cm-s-default.CodeMirror-wrap
-{
-  color: #b1bddf !important;
-}
-a:hover, .ipsButton.ipsButton_primary:hover
-{
-  color: #0092ed !important;
-}
-li, .cke_panel_grouptitle, .ipsType_richText.ipsType_medium.ipsSpacer_top.ipsSpacer_half, .ipsType_richText.ipsContained.ipsType_medium, .cke_dialog_ui_vbox_child span, .cke_dialog_ui_vbox_child div,
-.ipsTabs_panel span, .ipsField_fullWidth, #elCheck_menu a, #elFilterMenu_menu a, #elSortByMenu_menu a, h1, h2, h3, h4, h5, h6, .ipsCode
-{
-  color: #b1bddf;
-}
-.cke_combo.cke_combo__fontsize.cke_combo_off a, .cke_combo.cke_combo__font.cke_combo_off a, .ipsHovercard.ipsFeedHovercard.ipsHovercard_stemTop.ipsHovercard_stemRight
-{
-  box-shadow: none;
-}
-#elChatbox, #chatBoxForm, .ipsGrid.ipsGrid_collapsePhone.ipsWidget_stats, .ipsComment_author.cAuthorPane.ipsColumn.ipsColumn_medium.ipsResponsive_hidePhone,
-.cTopicPostArea.ipsAreaBackground.ipsPad.ipsSpacer_top, .ipsType_sectionTitle.ipsType_reset.ipsType_blendLinks, .ipsType_sectionTitle.ipsType_reset, 
-.cke_panel_grouptitle, .ipsComposeArea_editor, .ipsAreaBackground.ipsPad.ipsSpacer_bottom, .ipsComment.ipsFieldRow_fullWidth.ipsAreaBackground_light.ipsPad,
-.ipsSpoiler, .ipsPageHeader, .ipsStreamItem_contentType, .ipsSpoiler_header
-{
-  background: #0D0D17 !important;
-}
-#elLogo
-{
-  filter: drop-shadow(0px 0px 2px black);
-}
-#elLogo:hover, a[data-mentionid]:hover, .ipsAlert button:hover, .ipsMenu.ipsMenu_selectable.ipsHide.ipsMenu_topCenter .ipsMenu_item:hover, .ipsTabs_item.ipsType_center:hover, 
-.ipsButton.ipsButton_primary:hover
-{
-  opacity: 0.66;
-}
-.ipsWidget.ipsWidget_horizontal.ipsBox li, .ipsm-nav, #cbInput_container, #elInput_new_email, .ipsPos_right.ipsResponsive_noFloat.ipsResponsive_hidePhone div, .ipsComment_content.ipsType_medium.ipsFaded_withHover, .ipsComment_contentipsType_medium.ipsFaded_withHover,
-.ipsComposeArea_dummy.ipsJS_show, #cke_1_top, .ipsComposeArea_attachments.ipsClearfix.ipsAreaBackground_light, .ipsPad, .ipsQuote, .ipsComposeArea_dummy, .ipsComment_feed.ipsComment_subComments.ipsType_medium li, 
-.ipsType_reset.ipsPad_half.ipsType_right.ipsType_light.ipsType_small, .ipsDataList, .ipsType_reset.ipsType_center.ipsType_small.ipsPad_half, #elProfileInfoColumn,
-#elFilterMenu_menu, #elSortByMenu_menu, .ipsBox, .cke_top.cke_reset_all, .ipsAreaBackground_light.ipsPad_half, .ipsDataItem_lastPoster.ipsDataItem_withPhoto, #elSearchExpanded .ipsMenu_title,
-.ipsGrid_span6.ipsPhotoPanel.ipsPhotoPanel_mini.ipsClearfix div, .ipsSideMenu_item.ipsSideMenu_itemActive a, .ipsDataItem_generic.ipsDataItem_size2.ipsPos_top.ipsType_right,
-.ipsDataItem_subList.ipsList_inline, .ipsMatrix_highlighted,.cke_panel_block.cke_colorblock table td:hover a, .cke_colorauto:hover, .ipsHide.ipsMenu.ipsMenu_normal.ipsPad_half.cTagPopup.ipsMenu_topCenter, #dupa tr:nth-child(2n),
-.ipsPad_half.ipsList_reset.ipsGrid.ipsGrid_collapsePhone
-{
-  background: #11121f !important;  
-}
-.ipsNavBar_active a, .ipsPagination_page.ipsPagination_active a, .cke_button.cke_button__justifyleft.cke_button_on, .ipsButton.ipsButton_medium.ipsButton_important,
-.cke_wysiwyg_div,cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr, .ipsButton.ipsButton_primary, 
-.cke_combo.cke_combo__fontsize.cke_combo_off a, .cke_combo.cke_combo__font.cke_combo_off a, .cke_panel_listItem a:hover, .cke_panel_listItem a:focus,
-.ipsType_sectionTitle.ipsType_medium.ipsType_reset.ipsClear span, .ipsButton, .ipsBox.ipsPad_half, .ipsDataItem.ipsClearfix.ipsDataItem_unread.cMessage,
-#elNotifyContent .ipsDataItem.ipsDataItem_unread div, .ipsField_fullWidth, .ipsAttachment_progress, .ipsSideMenu_item.ipsSideMenu_itemActive,
-ul:not( .ipsMenu_keyNav ) .ipsMenu_item:not( .ipsMenu_itemClicked ):not( .ipsMenu_itemDisabled ) a:not( .ipsMenu_itemInline ):hover, .ipsMenu_item[data-selected] a,
-.ipsMenu_item[data-selected] span, .ipsMenu_item.ipsMenu_hover, .ipsSideMenu_item:hover, .ipsMenu_innerContent.ipsDataItem.ipsDataItem_unread div, .ipsSideMenu_item:hover a,
-.cke_button_on, #cke_35 span a:hover, .ipsAutocompleteMenu_item.ipsClearfix:hover div, .ipsAutocompleteMenu_item.ipsClearfix:hover, .ipsDataItem.ipsDataItem_responsivePhoto:hover div, 
-.ipsDataItem.ipsDataItem_responsivePhoto:hover ul, .ipsDataItem.ipsClearfix.ipsDataItem_unread.cMessage div, #cke_794_uiElement, .cke_dialog_ui_button, a[data-mentionid], 
-.cke_colorauto, .cke_colormore, .cke_button.cke_button_on, .ipsReact_button:hover, .ipsSpoiler_contents.cke_widget_editable, .ipsSpoiler_contents.cke_widget_editable p,
- .ipsSpoiler_contents p, .ipsType_normal.ipsType_richText.ipsContained .ipsSpoiler_contents, #dupa tr:nth-child(2n+1), .ipsEmoticons_item:hover, .ipsTabs_item.ipsType_center:hover,
-.ipsButton:hover, .ipsCode
-{
-  background: #181e37 !important;
-}
-.ipsResponsive_showDesktop a, .ipsPageHeader.ipsClearfix h1, .ipsType_sectionHead.cAuthorPane_author.ipsType_blendLinks.ipsType_break, .ipsType_sectionTitle.ipsType_medium.ipsType_reset.ipsClear span, 
-.ipsButton.ipsButton_light.ipsButton_small.ipsButton_fullWidth, .ipsPageHeader h1, #elConvoActions, .ipsDialog h3, .ipsType_pageTitle, .ipsSideMenu_title, .ipsMatch1, label
-{
-  color: white !important;
-}
-#ipsLayout_contentWrapper, .ipsPad_half.ipsPhotoPanel.ipsPhotoPanel_tiny.ipsClearfix, .ipsCommentCount, .ipsTabs_panel, .ipsTabs_panels.ipsTabs_contained.cTopicHovercard_container.ipsScrollbar,
-.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapseTablet, .ipsDataItem, .ipsPagination_page a, .ipsPagination_next a, .ipsPagination_last a, .ipsPagination_prev a, .ipsPagination_first a, 
-.ipsMenu_innerContent.ipsEmoticons_content, .cPopularItem.ipsStreamItem.ipsStreamItem_expanded.ipsStreamItem_contentBlock, .ipsColumn.ipsColumn_wide.ipsAreaBackground_light,
-.ipsDataItem .ipsDataItem_generic, #elProfileTabContent, .ipsDataList.ipsDataList_reducedSpacing.cProfileFields, .ipsDataItem_generic .ipsType_break.ipsContained,
-.ipsComment_feed.ipsType_medium.ipsPad_half div, .ipsSideMenu_list.ipsSideMenu_withRadios.ipsSideMenu_small.ipsType_normal, .ipsType_reset.ipsPad_half, .cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr, 
-.ipsAreaBackground.ipsType_center, .cke_dialog_contents, .cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr, 
-.ipsType_normal.ipsType_richText.ipsContained .ipsSpoiler_contents p, .ipsType_normal.ipsType_richText.ipsContained .ipsSpoiler_contents, #dupa tr, .ipsType_richText.ipsType_normal.ipsSpacer_top .ipsSpoiler p, .ipsType_richText.ipsType_normal.ipsSpacer_top .ipsSpoiler .ipsSpoiler_contents,
-.ipsImageAttach_thumb.ipsType_center, .ipsType_normal.ipsType_richText.ipsContained .cke_contents.cke_reset p
-{
-  background: #141727 !important;
+	color: #b1bddf !important;
+	background: #0d0d17 !important;
 }
 .ipsWidget_title, .ipsButtonBar.ipsPad_half.ipsClearfix.ipsClear.sfPagination, .ipsPageHeader.ipsClearfix.ipsSpacer_bottom.cForumHeader , .ipsPageHeader.ipsClearfix.ipsSpacer_bottom.cForumHeader h1,
-.ipsType_sectionTitle.ipsType_reset.cForumTitle, .ipsButtonBar.ipsPad_half.ipsClearfix.ipsClear
+.ipsType_sectionTitle.ipsType_reset.cForumTitle, .ipsButtonBar.ipsPad_half.ipsClearfix.ipsClear, .ipsToggle.ipsToggle_off
 {
-  background: #0D0D17 !important;
-  color: white !important;
-}
-#elSearch
-{
-  z-index: 125;
-}
-.ipsAutocompleteMenu_item.ipsClearfix
-{
-  background: #0D0D17;
-}
-.ipsPad_double a, .ipsType_sectionHead, .ipsButton i, .ipsButton span, .ipsType_reset.ipsPad_half.ipsType_right.ipsType_light.ipsType_small, .ipsButton.ipsButton_verySmall.ipsButton_light.ipsButton_fullWidth,
-.ipsTabs_panel h2
-{
-  color: white !important;
-}
-.ipsButtonRow.ipsPos_right.ipsClearfix a, .ipsWidget_vertical, .ipsWidget_inner, .ipsType_normal.ipsType_richText.ipsContained p, .ipsType_normal.ipsType_richText.ipsContained div,
-#ipsTabs_elProfileTabs_elProfileTab_activity_panel, #elCheck_menu, .ipsDataItem div, .ipsDataItem_stats, .ipsMenu_item, .ipsSelectTree_nodes.ipsHide
-{
-  background: #11121F !important;
-  border: 0 !important;
-}
-.ipsType_reset.ipsWidget_title::after, .ipsCommentCount::after, .ipsColumn.ipsColumn_fluid .ipsComment_content.ipsType_medium.ipsFaded_withHover::before, 
-.ipsHovercard_stem, .ipsComposeArea_editor::before, .ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomRight::before, .ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomRight::after,
-#elCheck_menu::before, #elCheck_menu::after, #elFilterMenu_menu::before, #elFilterMenu_menu::after, #elSortByMenu_menu::before, #elSortByMenu_menu::after, #elCreateNew_menu:before, 
-#elCreateNew_menu:after, #elUserLink_menu::before, #elUserLink_menu::after, #elSearchExpanded::before, #elSearchExpanded::after, .ipsTooltip.ipsTooltip_bottom.ipsComment_inlineQuoteTooltip:before,
-.ipsTooltip.ipsTooltip_bottom.ipsComment_inlineQuoteTooltip:after, #elNavLang_menu::before, #elNavLang_menu::after,
-.ipsMenu.ipsMenu_auto.ipsMenu_bottomCenter::before, .ipsMenu.ipsMenu_auto.ipsMenu_bottomCenter::after, .ipsMenu::before, .ipsMenu::after
-{
-  display: none !important;
-}
-.ipsWidget_inner  table, #elSearchField, .cSearchSubmit, .ipsComposeArea_dummy.ipsType_light, .ipsContained p, #cbInput_container input, #elInput_ProfileVideo input, #elInput_new_email, input, .ipsCommentCount, 
-.ipsTabs_panel, .ipsTabs_panels.ipsTabs_contained.cTopicHovercard_container.ipsScrollbar, .cke_combo.cke_combo__fontsize.cke_combo_off span, 
-.cke_combo.cke_combo__font.cke_combo_off span, .fa.fa-external-link-square
-{
-  color: #b1bddf !important;
-}
-.ipsType_center.ipsAreaBackground_light.ipsPad_half, .ipsDataList.ipsDataList_reducedSpacing.cTopContributors, .ipsDataList.ipsDataList_reducedSpacing, 
-.ipsComposeArea_dummy.ipsType_light, .cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix, .ipsDataItem.ipsDataItem_responsivePhoto
-{
-  background: #141727;
-}
-.ipsDataItem, #elCheck_menu li, .ipsMenu_sep, .ipsMenu_title, .ipsReact_types
-{
-  border-color: #242840 !important;
+	background: #0D0D17 !important;
+	color: white !important;
 }
 .ipsTabs_item.ipsTabs_activeItem, .ipsRichEmbed_header
 {
-  background: #181e37 !important;
-  color: #b1bddf;
+	background: #181e37 !important;
+	color: #b1bddf;
 }
-.ipsTabs_item, #elStatusSettingsMenu, .ipsAreaBackground.ipsPad_half, .ipsButtonBar.ipsPad_half.ipsClearfix.ipsClear.sfPagination a, .cke_panel_listItem a
+.ipsTabs_item, #elStatusSettingsMenu, .ipsAreaBackground.ipsPad_half, .ipsButtonBar.ipsPad_half.ipsClearfix.ipsClear.sfPagination a, .cke_panel_listItem a, .ipsDialog_title .ipsType_medium,
+#elGallerySubmit_imageUploader
 {
-  background: #11121F;
-  color: #b1bddf !important;
+	background: #11121F;
+	color: #b1bddf !important;
 }
-.ipsType_sectionTitle.ipsType_reset, .bimcb_chatArea.ipsBox.ipsClearfix, .ipsPageHeader.ipsClearfix.ipsSpacer_bottom.cForumHeader, .ipsPageHeader.ipsClearfix, .ipsPos_right.ipsResponsive_noFloat.ipsResponsive_hidePhone div, .ipsSpoiler,
-.ipsTabs_panels, select, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini.ipsPhotoPanel_notPhone, .cke_combo.cke_combo__fontsize.cke_combo_off a, .cke_combo.cke_combo__font.cke_combo_off a,
-.cke_panel_listItem a, .cke_panel_grouptitle, .ipsType_normal.ipsType_richText.ipsContained, .ipsPageHeader, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini,
-#elSearchTypes, #elFilterMenu_menu, #elSortByMenu_menu, .ipsAttachment_progress, .ipsAttachment_progress span, .ipsButton.ipsButton_veryLight.ipsButton_medium.ipsPos_right,
-#elTabBar, .cPopularItem.ipsStreamItem.ipsStreamItem_expanded.ipsStreamItem_contentBlock.ipsAreaBackground_reset, .ipsHovercard.ipsFeedHovercard.ipsHovercard_stemTop.ipsHovercard_stemRight,
-.ipsHovercard.ipsFeedHovercard.ipsHovercard_stemTop.ipsHovercard_stemRight div, #elSearchExpanded, #elSearchExpanded .ipsMenu_title, .ipsButton.ipsButton_veryVerySmall.ipsButton_veryLight,
-#elInput_topic_tags_wrapper, .cke_dialog_contents tr .cke_dialog_footer div, a[data-mentionid], .ipsButton.ipsButton_link.ipsButton.ipsButton_medium, .cke_colorbox,
-.CodeMirror.cm-s-default.CodeMirror-wrap
+::selection, .ipsType_richText.ipsContained.ipsType_medium .ipsMatch1, a .ipsMatch1
 {
-  border: 0 !important;
-  border-radius: 0 !important;
-}
-#elSearchExpanded ul, .ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad.ipsModerated, .ipsStreamItem_contentType, .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemRight,
-.ipsMenu, .ipsCode, .ipsEmbed_finishedLoading
-{
-  border-color: #0d0d17 !important;
-}
-.ipsWidget.ipsWidget_horizontal.ipsBox, .ipsmakeBox, .ipsType_normal.ipsType_richText.ipsContained blockquote, .ipsMenu_footerBar, #elEmoticons_chatbox_menu, .ipsMenu.ipsMenu_wide.ipsMenu_bottomCenter, 
-.ipsSelectTree.ipsJS_show
-{
-  border: 1;
-  border-color: #0d0d17 !important;
-  background: #0d0d17;
-}
-.ipsWidget_inner.ipsPad li, .ipsType_richText.ipsType_small p, .ipsList_inline.ipsPad.ipsResponsive_hidePhone.ipsResponsive_block.ipsPos_left, .cPastLeaders_title.ipsType_sectionHead span, .ipsFieldRow_content,
-.ipsPad_half.ipsPhotoPanel.ipsPhotoPanel_tiny.ipsClearfix div, .ipsFieldRow.ipsFieldRow_fullWidth, .ipsFieldRow a, #elInput_topic_tags_wrapper, .ipsFieldRow_content div
-{
-  background: #0000 !important;
-}
-.ipsList_reset.cForumList li, .ipsBox,
-.cPost.ipsBox.ipsComment.ipsComment_popular.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone, .ipsMenu_headerBar,
-.ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemLeft, .ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemLeft, #elFullNotifications_menu, #elFullInbox_menu,
-.cPost.ipsBox.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns, .ipsQuote.cke_widget_element, .ipsStreamItem.ipsStreamItem_contentBlock.cTopMembers_member,
-#elCreateNew_menu, #elUserLink_menu, .ipsComment_feed.ipsType_medium.ipsPad_half .ipsList_reset .ipsComment.ipsClearfix, .ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemRight, .cke_ltr, .cke_dialog_body, #cke_794_uiElement, .cke_dialog_ui_button, .ipsStream.ipsList_reset li, .cke_dialog_title, .cke_dialog_ui_vbox_child div,
-.ipsMenu.ipsMenu_auto.ipsMenu_bottomCenter, .cke_colorauto, .cke_colormore, .ipsPos_right select
-{
-  border-width: 1px;
-  border-color: #0d0d17 !important;
-}
-.ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemLeft, .ipsBox, .ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemLeft, .cProfileRepScore, 
-#elFullNotifications_menu, #elFullNotifications_menu div, #elFullInbox_menu, #elFullInbox_menu div, #elCreateNew_menu, #elUserLink_menu, .ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemRight, 
-.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad.ipsModerated, .ipsMenu.ipsMenu_wide.ipsMenu_bottomCenter, #elInput_messenger_to_results, 
-#elNavLang_menu, .cke_ltr, .cke_dialog_body, .cke_dialog.cke_browser_gecko.cke_ltr.cke_single_page, .cke_dialog_title, .cke_dialog_ui_button, .ipsEmbed_finishedLoading,
-.ipsMenu.ipsMenu_auto.ipsMenu_bottomCenter, .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemRight, .ipsMenu, .ipsMenu_item button, .ipsMenu_headerBar
-{
-  border-radius: 0px !important;
-}
-.ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix:hover li, .ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix:hover,
-.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix:hover div, .ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix:hover li,
-.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix:hover .ipsDataItem_lastPoster.ipsDataItem_withPhoto,
-.ipsDataList.ipsDataList_large.ipsDataList_zebra.ipsAreaBackground_reset .ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix:hover div,
-.ipsDataList.ipsDataList_large.ipsDataList_zebra.ipsAreaBackground_reset .ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix:hover ul,
-.ipsDataList.ipsDataList_large.ipsDataList_zebra.ipsAreaBackground_reset .ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix:hover dl,
-.ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix:hover dl,
-.cCmsRecord_row.ipsDataItem.ipsDataItem_responsivePhoto:hover li
-{
-  background: #181e37 !important;
-  transition: 0s;
-}
-.ipsPagination.ipsPagination_mini
-{
-  transition: 0s;
-}
-.ipsBox.ipsPad, .ipsList_reset.cCmsDatabase_index, #elProfileTabs_content, .ipsSpoiler
-{
-  padding: 0;
-}
-.ipsSpoiler_header
-{
-  margin: 0px 0px !important;
-}
-#ipsLayout_footer
-{
-  background: black !important;
+	background: #b1bddf;
+	color: #0d0d17 !important;
 }
 .ipsType_break.ipsContained:hover span, .ipsHovercard.ipsFeedHovercard.ipsHovercard_stemTop.ipsHovercard_stemRight
 {
-  background: #0000;
-  color: white;
+	background: #0000;
+	color: white;
 }
-.ipsDataItem_stats
+
+/* [BG]Backgrounds */
+#chatBoxForm, .ipsGrid.ipsGrid_collapsePhone.ipsWidget_stats, .ipsComment_author.cAuthorPane.ipsColumn.ipsColumn_medium.ipsResponsive_hidePhone,  .ipsStreamItem_contentType,
+.ipsPageHeader, .cTopicPostArea.ipsAreaBackground.ipsPad.ipsSpacer_top, .ipsType_sectionTitle.ipsType_reset.ipsType_blendLinks, .ipsType_sectionTitle.ipsType_reset, 
+.cke_panel_grouptitle, .ipsComposeArea_editor, .ipsAreaBackground.ipsPad.ipsSpacer_bottom, #elChatbox, .ipsComment.ipsFieldRow_fullWidth.ipsAreaBackground_light.ipsPad, 
+.ipsSpoiler, .ipsSpoiler_header
 {
-  min-width: 220px !important;
+	background: #0D0D17 !important;
 }
+.ipsWidget.ipsWidget_horizontal.ipsBox li, .ipsm-nav, #cbInput_container, #elInput_new_email, .ipsPos_right.ipsResponsive_noFloat.ipsResponsive_hidePhone div, 
+.ipsComment_contentipsType_medium.ipsFaded_withHover, .ipsComposeArea_dummy.ipsJS_show, #cke_1_top, .ipsComposeArea_attachments.ipsClearfix.ipsAreaBackground_light, 
+.ipsPad, .ipsQuote, .ipsComposeArea_dummy, .ipsComment_feed.ipsComment_subComments.ipsType_medium li, .ipsType_reset.ipsPad_half.ipsType_right.ipsType_light.ipsType_small, 
+.ipsDataList, .ipsType_reset.ipsType_center.ipsType_small.ipsPad_half, #elProfileInfoColumn, #elFilterMenu_menu, #elSortByMenu_menu, .ipsBox, .cke_top.cke_reset_all, 
+.ipsAreaBackground_light.ipsPad_half, .ipsDataItem_lastPoster.ipsDataItem_withPhoto, #elSearchExpanded .ipsMenu_title, .ipsGrid_span6.ipsPhotoPanel.ipsPhotoPanel_mini.ipsClearfix div, 
+.ipsSideMenu_item.ipsSideMenu_itemActive a, .ipsDataItem_generic.ipsDataItem_size2.ipsPos_top.ipsType_right, .ipsDataItem_subList.ipsList_inline, .ipsMatrix_highlighted,
+.cke_panel_block.cke_colorblock table td:hover a, .cke_colorauto:hover, .ipsHide.ipsMenu.ipsMenu_normal.ipsPad_half.cTagPopup.ipsMenu_topCenter, #dupa tr:nth-child(2n), 
+.ipsPad_half.ipsList_reset.ipsGrid.ipsGrid_collapsePhone, .ipsComment_content.ipsType_medium.ipsFaded_withHover, .cPost_contentWrap.ipsPad .ipsType_normal.ipsType_richText.ipsContained,
+.ipsDataItem_generic.ipsDataItem_size2.ipsType_center.ipsResponsive_hidePhone
+{
+	background: #11121f !important;  
+}
+#ipsLayout_contentWrapper, .ipsPad_half.ipsPhotoPanel.ipsPhotoPanel_tiny.ipsClearfix, .ipsTabs_panels.ipsTabs_contained.cTopicHovercard_container.ipsScrollbar,
+.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapseTablet, .ipsDataItem, .ipsPagination_page a, .ipsPagination_next a, .ipsPagination_last a, .ipsPagination_prev a, 
+.ipsMenu_innerContent.ipsEmoticons_content, .cPopularItem.ipsStreamItem.ipsStreamItem_expanded.ipsStreamItem_contentBlock, .ipsColumn.ipsColumn_wide.ipsAreaBackground_light,
+.ipsDataItem .ipsDataItem_generic, #elProfileTabContent, .ipsDataList.ipsDataList_reducedSpacing.cProfileFields, .ipsDataItem_generic .ipsType_break.ipsContained,
+.ipsComment_feed.ipsType_medium.ipsPad_half div, .ipsSideMenu_list.ipsSideMenu_withRadios.ipsSideMenu_small.ipsType_normal, .ipsType_reset.ipsPad_half, .ipsTabs_panel,
+.cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr, .ipsCommentCount, .ipsPagination_first a, .cke_dialog_contents,
+.ipsAreaBackground.ipsType_center, .cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr, .ipsImageAttach_thumb.ipsType_center,
+.ipsType_normal.ipsType_richText.ipsContained .cke_contents.cke_reset p,  #dupa tr, .ipsType_richText .ipsSpoiler_contents, #ipsLayout_contentWrapper .ipsSpoiler_contents, #ipsLayout_contentWrapper .ipsSpoiler_contents p, 
+.ipsList_reset li .ipsSelectTree_item, .ipsAttachment_dropZone.ipsClearfix
+{
+	background: #141727 !important;
+}
+.ipsNavBar_active a, .ipsPagination_page.ipsPagination_active a, .cke_button.cke_button__justifyleft.cke_button_on, .ipsButton.ipsButton_medium.ipsButton_important,
+.cke_wysiwyg_div, .cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr, .ipsButton.ipsButton_primary, .cke_combo a, .cke_panel_listItem a:hover, 
+.cke_panel_listItem a:focus, .ipsType_sectionTitle.ipsType_medium.ipsType_reset.ipsClear span, .ipsButton, .ipsBox.ipsPad_half, .ipsDataItem.ipsClearfix.ipsDataItem_unread.cMessage,
+#elNotifyContent .ipsDataItem.ipsDataItem_unread div, .ipsField_fullWidth, .ipsAttachment_progress, .ipsSideMenu_item.ipsSideMenu_itemActive, .ipsMenu_item[data-selected] span,
+ul:not( .ipsMenu_keyNav ) .ipsMenu_item:not( .ipsMenu_itemClicked ):not( .ipsMenu_itemDisabled ) a:not( .ipsMenu_itemInline ):hover, .ipsMenu_item[data-selected] a, 
+.ipsMenu_item.ipsMenu_hover, .ipsSideMenu_item:hover, .ipsMenu_innerContent.ipsDataItem.ipsDataItem_unread div, .ipsSideMenu_item:hover a, .cke_button_on, #cke_35 span a:hover, 
+.ipsAutocompleteMenu_item.ipsClearfix:hover div, .ipsAutocompleteMenu_item.ipsClearfix:hover, .ipsDataItem.ipsDataItem_responsivePhoto:hover div, .ipsDataItem.ipsDataItem_responsivePhoto:hover ul, 
+.ipsDataItem.ipsClearfix.ipsDataItem_unread.cMessage div, #cke_794_uiElement, .cke_dialog_ui_button, a[data-mentionid], .cke_colorauto, .cke_colormore, .cke_button.cke_button_on, 
+.ipsReact_button:hover, .ipsSpoiler_contents.cke_widget_editable, #dupa tr:nth-child(2n+1), .ipsEmoticons_item:hover, .ipsTabs_item.ipsType_center:hover, .ipsButton:hover, 
+.ipsCode, .ipsButtonBar li a:hover, .ipsPagination li:hover a, .ipsList_reset li .ipsSelectTree_item:hover
+{
+	background: #181e37 !important;
+}
+.ipsDataItem.ipsDataItem_responsivePhoto.ipsModerated div, .ipsDataItem.ipsDataItem_responsivePhoto.ipsModerated ul
+{
+	background: #1d0d1A !important;
+}
+.ipsDataItem.ipsDataItem_responsivePhoto.ipsModerated:hover ul, .ipsDataItem.ipsDataItem_responsivePhoto.ipsModerated:hover div
+{
+	background: #55231e !important;
+}
+#ipsLayout_footer
+{
+	background: black !important;
+}
+ .ipsPos_left.ipsPad.cProfileHeader_name.ipsType_normal, .ipsType_richText.ipsType_small p, .ipsList_inline.ipsPad.ipsResponsive_hidePhone.ipsResponsive_block.ipsPos_left, .ipsFieldRow,
+.cPastLeaders_title.ipsType_sectionHead span, .ipsFieldRow_content, .ipsPad_half.ipsPhotoPanel.ipsPhotoPanel_tiny.ipsClearfix div, .ipsFieldRow.ipsFieldRow_fullWidth, 
+.ipsFieldRow a, #elInput_topic_tags_wrapper, .ipsFieldRow_content div, .ipsPos_right.ipsType_reset.ipsType_light.ipsType_blendLinks li, .ipsWidget_inner.ipsPad li,
+.ipsBox_alt.ipsPhotoPanel.ipsPhotoPanel_tiny.ipsClearfix.ipsSpacer_bottom li, .ipsClearfix.ipsRating.ipsRating_veryLarge li
+{
+	background: #0000 !important;
+}
+.ipsAutocompleteMenu_item.ipsClearfix, .ipsDialog div
+{
+	background: #0D0D17;
+}
+.ipsType_center.ipsAreaBackground_light.ipsPad_half, .ipsDataList.ipsDataList_reducedSpacing.cTopContributors, .ipsDataList.ipsDataList_reducedSpacing, .ipsComposeArea_dummy.ipsType_light, 
+.ipsDataItem.ipsDataItem_responsivePhoto
+{
+	background: #141727;
+}
+
+/* [SpBG] Background Specific */
 .cke_toolgroup .cke_button span, .cke_button_icon.cke_button__ipspreview_icon
 {
-  background-image: url("https://i.imgur.com/lasIUn3.png") !important;
+	background-image: url("https://i.imgur.com/lasIUn3.png") !important;
   
 }
 .cke_button.cke_button__iframe.cke_button_off span
 {
-  background-image: url("https://i.imgur.com/jnjNd7p.png") !important;
+	background-image: url("https://i.imgur.com/jnjNd7p.png") !important;
 }
 .cke_toolbar.cke_toolbar_last a:hover
 {
-  background-color: #fff2 !important;
+	background-color: #fff2 !important;
 }
-.ipsCustomInput input + span
+
+/* [BGR]Background && Rest */
+.cke_combo_off a.cke_combo_button:active, .cke_combo_on a.cke_combo_button, .ipsButton.ipsButton_link.ipsButton_verySmall
 {
-  border: 0;
-  background-color: #0d0d17 !important;
-  color: red;
-  box-shadow: none;
+	background:#181e37 !important;
+	border:1px solid #0d0d17 !important;
+	border-radius: 0px;
 }
-.ipsPos_right.ipsType_reset.ipsType_light.ipsType_blendLinks li, .ipsBox_alt.ipsPhotoPanel.ipsPhotoPanel_tiny.ipsClearfix.ipsSpacer_bottom li, 
-.ipsClearfix.ipsRating.ipsRating_veryLarge li, .ipsPos_left.ipsPad.cProfileHeader_name.ipsType_normal, .ipsFieldRow
+.ipsButtonRow.ipsPos_right.ipsClearfix a, .ipsWidget_vertical, .ipsWidget_inner, .ipsType_normal.ipsType_richText.ipsContained p, .ipsType_normal.ipsType_richText.ipsContained div,
+#ipsTabs_elProfileTabs_elProfileTab_activity_panel, #elCheck_menu, .ipsDataItem div, .ipsDataItem_stats, .ipsMenu_item, .ipsSelectTree_nodes.ipsHide
 {
-  background-color: #0000 !important;
-}
-.cke_panel_grouptitle
-{
-  text-shadow: none;
-}
-.ipsSpoiler
-{
-  margin-bottom: 5px;
-  margin-top: 5px;
-}
-.ipsSpoiler_contents, .ipsSpoiler.cke_widget_element, .ipsContained.ipsSpacer_top.ipsBox.ipsPad .ipsReact_button, .ipsType_richText.ipsType_normal.ipsSpacer_top .ipsSpoiler
-{
-  margin-left: 5px;
-  margin-right: 5px;
-  padding-bottom: 5px;
-}
-.ipsBadge.ipsBadge_style6.ipsPos_right
-{
-  margin-right: 20px;
-}
-#ipsTabs_elProfileTabs_elProfileTab_activity_panel, #ipsTabs_elProfileTabs_elProfileTab_field_core_pfield_20_panel, .ipsToolList.ipsToolList_horizontal.ipsClearfix.ipsSpacer_both.ipsResponsive_hidePhone
-{
-  padding: 0px 10px;
-}
-.cMessage_members.ipsBox.ipsPad
-{
-  padding: 5px 0px 0px 10px;
-}
-#ipsTabs_elSettingsTabs_setting_email_panel, #ipsTabs_elSettingsTabs_setting_password_panel, #ipsTabs_elSettingsTabs_setting_mfa_panel, #elProfileTabContent
-{
-  padding: 10px;
+	background: #11121F !important;
+	border: 0 !important;
 }
 .ipsCommentCount.ipsSpacer_top.ipsSpacer_half, .ipsReact_button.ipsReact_reacted:hover
 {
-  background: #181e37 !important;
-  border-radius: 25px !important;
+	background: #181e37 !important;
+	border-radius: 25px !important;
 }
 .ipsAttachment_progress span
 {
-  background-color: #b1bddf;
-  height: 100%;
+	background-color: #b1bddf;
+	height: 100%;
 }
-.ipsDataItem.ipsDataItem_responsivePhoto
+.ipsWidget.ipsWidget_horizontal.ipsBox, .ipsType_normal.ipsType_richText.ipsContained blockquote, .ipsMenu_footerBar, #elEmoticons_chatbox_menu, .ipsMenu.ipsMenu_wide.ipsMenu_bottomCenter, 
+.ipsSelectTree.ipsJS_show, .ipsmakeBox, .ipsAttachment_dropZone.ipsClearfix
 {
-  border-bottom: #0d0d17 solid 1px !important;
+	border: 1;
+	border-color: #0d0d17 !important;
+	background: #0d0d17;
 }
-.ipsLeaderboard_trophy .fa.fa-trophy
+.ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix:hover li, .ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix:hover, .ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix:hover dl, 
+.cCmsRecord_row.ipsDataItem.ipsDataItem_responsivePhoto:hover li
 {
-  color: #FFFA;
+	background: #181e37 !important;
+	transition: 0s;
 }
- .ipsDialog div
+.ipsCustomInput input + span
 {
-  background: #0d0d17;
-}
-.ipsToggle.ipsToggle_off
-{
-  background: #0d0d17 !important;
-}
-.ipsToggle.ipsToggle_off span
-{
-  color: #0d0d17 !important;
-}
-.ipsType_normal.ipsType_richText.ipsContained .ipsSpoiler
-{
-  padding-bottom: 5px;
-}
-.ipsSpoiler, .ipsContained.ipsSpacer_top.ipsBox.ipsPad div
-{
-  margin-left: 5px;
-}
-.ipsComment_feed.ipsType_medium.ipsPad_half .ipsList_reset .ipsComment.ipsClearfix
-{
-  border-left:  solid 1px #0d0d17 !important;
-  border-right:  solid 1px #0d0d17 !important;
-  border-top:  solid 1px #0d0d17 !important;
-}
-.cUserHovercard_data .ipsDataList.ipsDataList_reducedSpacing .ipsDataItem, .ipsWidget.ipsWidget_vertical.cProfileSidebarBlock.ipsBox.ipsSpacer_bottom .ipsDataItem, .ipsType_normal.ipsType_richText.ipsPad.ipsBox, 
-.ipsSpoiler_contents
-{
-  padding-left: 5px;
-}
-#elSearchField
-{
-  height: 32px !important;
-  width: 210px !important;
-}
-.ipsDataItem_lastPoster.ipsDataItem_withPhoto
-{
-  padding: 5px 0px;
-}
-.ipsResponsive_showDesktop.ipsResponsive_block li a
-{
-  padding-right: 20px !important;
-}
-.cke_combo_off a.cke_combo_button:active,
-.cke_combo_on a.cke_combo_button {
- border:1px solid #0d0d17;
- border-radius: 0px;
- background:#181e37;
+	border: 0;
+	background-color: #0d0d17 !important;
+	color: red;
+	box-shadow: none;
 }
 .cke_dialog_background_cover
 {
-  background-color: #0d0d17 !important;
-  opacity: 0.75 !important;
+	background-color: #0d0d17 !important;
+	opacity: 0.75 !important;
 }
-.cke_dialog_footer
+
+/* [C]Colors */
+.ipsPagination_page a, .ipsPagination_next a, .ipsPagination_last a, .ipsPagination_prev a, .ipsPagination_first a, a, .ipsBox_alt.ipsType_normal.ipsType_richText.ipsPad, 
+.ipsType_normal.ipsType_richText.ipsPad.ipsBox, .cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr div, .ipsButton.ipsButton_fullWidth.ipsButton_light,
+.ipsType_richText.ipsType_normal p, .ipsBreadcrumb.ipsBreadcrumb_top.ipsFaded_withHover li, .ipsBreadcrumb.ipsBreadcrumb_bottom.ipsFaded_withHover li, .ipsType_richText.ipsType_small,
+.CodeMirror.cm-s-default.CodeMirror-wrap, .ipsWidget_inner  table, #elSearchField, .cSearchSubmit, .ipsComposeArea_dummy.ipsType_light, .ipsContained p, #cbInput_container input, 
+#elInput_ProfileVideo input, #elInput_new_email, input, .ipsCommentCount, .ipsTabs_panel, .ipsTabs_panels.ipsTabs_contained.cTopicHovercard_container.ipsScrollbar, 
+.cke_combo span, .fa.fa-external-link-square
 {
-  outline: none;
+	color: #b1bddf !important;
 }
-.ipsDataItem.ipsDataItem_responsivePhoto.ipsModerated div,
-.ipsDataItem.ipsDataItem_responsivePhoto.ipsModerated ul
+.ipsResponsive_showDesktop a, .ipsPageHeader.ipsClearfix h1, .ipsType_sectionHead.cAuthorPane_author.ipsType_blendLinks.ipsType_break, .ipsMatch1, label, .ipsButton i,
+.ipsType_sectionTitle.ipsType_medium.ipsType_reset.ipsClear span, .ipsButton.ipsButton_light.ipsButton_small.ipsButton_fullWidth, .ipsPageHeader h1, #elConvoActions, 
+.ipsDialog h3, .ipsType_pageTitle, .ipsSideMenu_title, .ipsPad_double a, .ipsType_sectionHead, .ipsButton span, .ipsType_reset.ipsPad_half.ipsType_right.ipsType_light.ipsType_small, 
+.ipsButton.ipsButton_verySmall.ipsButton_light.ipsButton_fullWidth, .ipsTabs_panel h2, .ipsDialog_title, .ipsApp .ipsButton_veryLight
 {
-  background: #1d0d1A !important;
+	color: white !important;
 }
-.ipsDataItem.ipsDataItem_responsivePhoto.ipsModerated:hover ul, .ipsDataItem.ipsDataItem_responsivePhoto.ipsModerated:hover div
+a:hover, .ipsButton.ipsButton_primary:hover
 {
-  background: #55231e !important;
+	color: #0092ed !important;
+}
+.ipsLeaderboard_trophy .fa.fa-trophy
+{
+	color: #FFFA;
+}
+.ipsToggle.ipsToggle_off span
+{
+	color: #0d0d17 !important;
+}
+li, .cke_panel_grouptitle, .ipsType_richText.ipsType_medium.ipsSpacer_top.ipsSpacer_half, .ipsType_richText.ipsContained.ipsType_medium, .cke_dialog_ui_vbox_child span, 
+.cke_dialog_ui_vbox_child div, .ipsTabs_panel span, .ipsField_fullWidth, #elCheck_menu a, #elFilterMenu_menu a, #elSortByMenu_menu a, h1, h2, h3, h4, h5, h6, .ipsCode
+{
+	color: #b1bddf;
 }
 .com
 {
-  color: grey;
+	color: grey;
+}
+/* [B] Border */
+.ipsType_sectionTitle.ipsType_reset, .bimcb_chatArea.ipsBox.ipsClearfix, .ipsPageHeader.ipsClearfix.ipsSpacer_bottom.cForumHeader, .ipsPageHeader.ipsClearfix, .cke_combo a,
+.ipsPos_right.ipsResponsive_noFloat.ipsResponsive_hidePhone div, .ipsSpoiler, .ipsTabs_panels, select, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini.ipsPhotoPanel_notPhone, 
+.cke_panel_listItem a, .cke_panel_grouptitle, .ipsType_normal.ipsType_richText.ipsContained, .ipsPageHeader, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini, #elSearchTypes,
+#elFilterMenu_menu, #elSortByMenu_menu, .ipsAttachment_progress, .ipsAttachment_progress span, #elTabBar, .ipsButton, #elInput_topic_tags_wrapper, #elSearchExpanded .ipsMenu_title,
+.cPopularItem.ipsStreamItem.ipsStreamItem_expanded.ipsStreamItem_contentBlock.ipsAreaBackground_reset, .cke_dialog_contents tr .cke_dialog_footer div, a[data-mentionid],
+.ipsHovercard.ipsFeedHovercard.ipsHovercard_stemTop.ipsHovercard_stemRight, .ipsHovercard.ipsFeedHovercard.ipsHovercard_stemTop.ipsHovercard_stemRight div, #elSearchExpanded, 
+.CodeMirror.cm-s-default.CodeMirror-wrap, .ipsSelectTree_nodes.ipsHide .ipsScrollbar
+{
+	border: 0 !important;
+	border-radius: 0 !important;
+}
+#elSearchExpanded ul, .ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad.ipsModerated, .ipsStreamItem_contentType, .ipsMenu,
+.ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemRight, .ipsCode, .ipsEmbed_finishedLoading, .ipsList_reset.cForumList li, .ipsBox, .ipsMenu_headerBar, .cke_colorauto,
+.cPost.ipsBox.ipsComment.ipsComment_popular.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone,  .cke_colormore, .cke_ltr,
+.ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemLeft, .ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemLeft, .cPost.ipsBox.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns, 
+.ipsQuote.cke_widget_element, .ipsStreamItem.ipsStreamItem_contentBlock.cTopMembers_member, #elCreateNew_menu, #elUserLink_menu, .ipsComment_feed.ipsType_medium.ipsPad_half .ipsList_reset .ipsComment.ipsClearfix, 
+.ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemRight, .cke_dialog_body, #cke_794_uiElement, .cke_dialog_ui_button, .ipsStream.ipsList_reset li, .cke_dialog_title, 
+.cke_dialog_ui_vbox_child div, .ipsMenu.ipsMenu_auto.ipsMenu_bottomCenter, .ipsPos_right select, .ipsList_reset li, .cke_colorbox
+{
+	border-color: #0d0d17 !important;
+}
+.ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemLeft, .ipsBox, .ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemLeft, .cProfileRepScore, #elCreateNew_menu, 
+#elUserLink_menu, .ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemRight, .ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad.ipsModerated, 
+.ipsMenu.ipsMenu_wide.ipsMenu_bottomCenter, #elInput_messenger_to_results, #elNavLang_menu, .cke_ltr, .cke_dialog_body, .cke_dialog.cke_browser_gecko.cke_ltr.cke_single_page, 
+.cke_dialog_title, .cke_dialog_ui_button, .ipsEmbed_finishedLoading, .ipsMenu.ipsMenu_auto.ipsMenu_bottomCenter, .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemRight, 
+.ipsMenu, .ipsMenu_item button, .ipsMenu_headerBar
+{
+	border-radius: 0px !important;
+}
+.ipsDataItem, #elCheck_menu li, .ipsMenu_sep, .ipsMenu_title, .ipsReact_types
+{
+	border-color: #242840 !important;
+}
+
+/* [SpB] Specific Border */
+.ipsDataItem.ipsDataItem_responsivePhoto
+{
+	border-bottom: #0d0d17 solid 1px !important;
+}
+.ipsComment_feed.ipsType_medium.ipsPad_half .ipsList_reset .ipsComment.ipsClearfix, .cForumRow.ipsDataItem
+{
+	border-left:  solid 1px #0d0d17 !important;
+	border-right:  solid 1px #0d0d17 !important;
+	border-top:  solid 1px #0d0d17 !important;
+}
+
+/* [PM] Padding & Margin */
+.ipsSpoiler_header
+{
+	margin: 0px 0px !important;
+}
+.ipsBox.ipsPad, .ipsList_reset.cCmsDatabase_index, #elProfileTabs_content, .ipsSpoiler
+{
+	padding: 0;
+}
+.ipsDataItem_lastPoster.ipsDataItem_withPhoto
+{
+	padding: 5px 0px;
+}
+#ipsTabs_elProfileTabs_elProfileTab_activity_panel, #ipsTabs_elProfileTabs_elProfileTab_field_core_pfield_20_panel, .ipsToolList.ipsToolList_horizontal.ipsClearfix.ipsSpacer_both.ipsResponsive_hidePhone,
+.ipsBox_alt.ipsPhotoPanel.ipsPhotoPanel_tiny.ipsClearfix.ipsSpacer_bottom
+{
+	padding: 0px 10px;
+}
+.cMessage_members.ipsBox.ipsPad
+{
+	padding: 5px 0px 0px 10px;
+}
+#ipsTabs_elSettingsTabs_setting_email_panel, #ipsTabs_elSettingsTabs_setting_password_panel, #ipsTabs_elSettingsTabs_setting_mfa_panel, #elProfileTabContent
+{
+	padding: 10px;
+}
+
+/* [SpPM] Specific Padding & Margin */
+.ipsResponsive_showDesktop.ipsResponsive_block li a
+{
+	padding-right: 20px !important;
+}
+.ipsType_normal.ipsType_richText.ipsContained .ipsSpoiler
+{
+	padding-bottom: 5px;
+}
+.cUserHovercard_data .ipsDataList.ipsDataList_reducedSpacing .ipsDataItem, .ipsWidget.ipsWidget_vertical.cProfileSidebarBlock.ipsBox.ipsSpacer_bottom .ipsDataItem, 
+.ipsType_normal.ipsType_richText.ipsPad.ipsBox, .ipsSpoiler_contents
+{
+	padding-left: 5px;
+}
+.ipsSpoiler, .ipsContained.ipsSpacer_top.ipsBox.ipsPad div
+{
+	margin-left: 5px;
+}
+.ipsSpoiler
+{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.ipsSpoiler_contents, .ipsSpoiler.cke_widget_element, .ipsContained.ipsSpacer_top.ipsBox.ipsPad .ipsReact_button, .ipsType_richText.ipsType_normal.ipsSpacer_top .ipsSpoiler,
+{
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-bottom: 5px;
+}
+.ipsBadge.ipsBadge_style6.ipsPos_right, #elFileTypes
+{
+	margin-right: 20px;
+}
+.ipsList_inline.ipsClearfix a
+{
+	margin: 5px 5px -10px;
+}
+
+/* [R] Rest / Weirdos */
+.ipsType_reset.ipsWidget_title::after, .ipsCommentCount::after, .ipsColumn.ipsColumn_fluid .ipsComment_content.ipsType_medium.ipsFaded_withHover::before, .ipsMenu::before,
+.ipsComposeArea_editor::before, .ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomRight::before, .ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomRight::after, .ipsMenu::after, 
+.ipsTooltip.ipsTooltip_bottom.ipsComment_inlineQuoteTooltip:before, .ipsTooltip.ipsTooltip_bottom.ipsComment_inlineQuoteTooltip:after, .ipsHovercard_stem,
+.ipsMenu.ipsMenu_auto.ipsMenu_bottomCenter::before, .ipsMenu.ipsMenu_auto.ipsMenu_bottomCenter::after
+{
+	display: none !important;
+}
+#elLogo:hover, a[data-mentionid]:hover, .ipsAlert button:hover, .ipsMenu.ipsMenu_selectable.ipsHide.ipsMenu_topCenter .ipsMenu_item:hover, .ipsTabs_item.ipsType_center:hover, 
+.ipsButton:hover, .ipsApp .ipsButton_veryLight:hover
+{
+	opacity: 0.66;
+}
+.cke_combo a, .ipsHovercard.ipsFeedHovercard.ipsHovercard_stemTop.ipsHovercard_stemRight
+{
+	box-shadow: none;
+}
+#elLogo
+{
+	filter: drop-shadow(0px 0px 2px black);
+}
+.ipsPagination.ipsPagination_mini
+{
+	transition: 0s;
+}
+.cke_panel_grouptitle, .ipsPagination li a
+{
+	text-shadow: none !important;
+}
+#elSearchField
+{
+	height: 32px !important;
+	width: 210px !important;
+}
+.ipsDataItem_stats
+{
+	min-width: 220px !important;
+}
+.cke_dialog_footer
+{
+	outline: none;
+}
+#elSearch
+{
+	z-index: 125;
 }
