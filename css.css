@@ -1,4 +1,4 @@
-/* PTS Granite 1.2 by Wersjon */
+/* PTS Granite 1.2_01 by Wersjon */
 /* [BGC]Color && Background */
 body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini.ipsPhotoPanel_notPhone, .ipsType_normal.ipsType_richText.ipsContained div,
 .subhead, #elProfileStats, .ipsLoading, .ipsMenu_headerBar, .ipsMenu_footerBar, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini, .ipsButtonRow.ipsClearfix a,
@@ -316,7 +316,7 @@ li, .cke_panel_grouptitle, .ipsType_richText.ipsType_medium.ipsSpacer_top.ipsSpa
 	margin-bottom: 5px;
 	margin-top: 5px;
 }
-.ipsSpoiler_contents, .ipsSpoiler.cke_widget_element, .ipsContained.ipsSpacer_top.ipsBox.ipsPad .ipsReact_button, .ipsType_richText.ipsType_normal.ipsSpacer_top .ipsSpoiler,
+.ipsSpoiler_contents, .ipsSpoiler.cke_widget_element, .ipsContained.ipsSpacer_top.ipsBox.ipsPad .ipsReact_button, .ipsType_richText.ipsType_normal.ipsSpacer_top .ipsSpoiler
 {
 	margin-left: 5px;
 	margin-right: 5px;
