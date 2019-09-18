@@ -326,10 +326,6 @@ li, .cke_panel_grouptitle, .ipsType_richText.ipsType_medium.ipsSpacer_top.ipsSpa
 {
 	margin-right: 20px;
 }
-.ipsList_inline.ipsClearfix a
-{
-	margin: 5px 5px -10px;
-}
 
 /* [R] Rest / Weirdos */
 .ipsType_reset.ipsWidget_title::after, .ipsCommentCount::after, .ipsColumn.ipsColumn_fluid .ipsComment_content.ipsType_medium.ipsFaded_withHover::before, .ipsMenu::before,
