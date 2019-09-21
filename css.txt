@@ -1,4 +1,4 @@
-/* PTS Granite 1.2_03 by Wersjon */
+/* PTS Granite 1.2_04 by Wersjon */
 /* [BGC]Color && Background */
 body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini.ipsPhotoPanel_notPhone, .ipsType_normal.ipsType_richText.ipsContained div,
 .subhead, #elProfileStats, .ipsLoading, .ipsMenu_headerBar, .ipsMenu_footerBar, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini, .ipsButtonRow.ipsClearfix a,
@@ -10,7 +10,7 @@ body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPh
 .ipsTable.ipsMatrix.ipsClear.ipsTable_responsive .ipsMatrix_subHeader, .ipsMenu.ipsMenu_auto.ipsMenu_withStem.ipsHide, .ipsType_normal.ipsType_richText.ipsContained, 
 .cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr a[data-mentionid], .ipsAlert,
 .ipsMenu_itemCount, #elInput_status_by_member_wrapper, .ipsField_autocomplete.ipsField_fullWidth, .ipsFieldRow_content div div #elInput_topic_tags_wrapper, #topic_tags_prefix_menu,
-.ipsComment.ipsFieldRow_fullWidth.ipsAreaBackground_light.ipsPad div, .cGalleryLightbox_info
+.ipsComment.ipsFieldRow_fullWidth.ipsAreaBackground_light.ipsPad div, .cGalleryLightbox_info, .ipsType_normal.ipsType_richText.ipsContained .ipsQuote_citation
 {
 	color: #b1bddf !important;
 	background: #0d0d17 !important;
