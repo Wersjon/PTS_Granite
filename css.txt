@@ -1,4 +1,4 @@
-/* PTS Granite 1.2_05 by Wersjon */
+/* PTS Granite 1.2_06 by Wersjon */
 /* [BGC]Color && Background */
 body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini.ipsPhotoPanel_notPhone, .ipsType_normal.ipsType_richText.ipsContained div,
 .subhead, #elProfileStats, .ipsLoading, .ipsMenu_headerBar, .ipsMenu_footerBar, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini, .ipsButtonRow.ipsClearfix a,
@@ -59,7 +59,7 @@ body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPh
 .ipsSideMenu_item.ipsSideMenu_itemActive a, .ipsDataItem_generic.ipsDataItem_size2.ipsPos_top.ipsType_right, .ipsDataItem_subList.ipsList_inline, .ipsMatrix_highlighted,
 .cke_panel_block.cke_colorblock table td:hover a, .cke_colorauto:hover, .ipsHide.ipsMenu.ipsMenu_normal.ipsPad_half.cTagPopup.ipsMenu_topCenter, #dupa tr:nth-child(2n), 
 .ipsPad_half.ipsList_reset.ipsGrid.ipsGrid_collapsePhone, .ipsComment_content.ipsType_medium.ipsFaded_withHover, .cPost_contentWrap.ipsPad .ipsType_normal.ipsType_richText.ipsContained,
-.ipsDataItem_generic.ipsDataItem_size2.ipsType_center.ipsResponsive_hidePhone, .ipsButtonRow.ipsPos_right.ipsClearfix li .ipsCursor_pointer
+.ipsDataItem_generic.ipsDataItem_size2.ipsType_center.ipsResponsive_hidePhone, .ipsButtonRow.ipsPos_right.ipsClearfix li .ipsCursor_pointer, .ipsStreamItem_snippet .ipsType_normal.ipsType_richText.ipsContained
 {
 	background: #11121f !important;  
 }
