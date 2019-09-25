@@ -1,4 +1,4 @@
-/* PTS Granite 1.2_06 by Wersjon */
+/* PTS Granite 1.2_07 by Wersjon */
 /* [BGC]Color && Background */
 body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini.ipsPhotoPanel_notPhone, .ipsType_normal.ipsType_richText.ipsContained div,
 .subhead, #elProfileStats, .ipsLoading, .ipsMenu_headerBar, .ipsMenu_footerBar, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini, .ipsButtonRow.ipsClearfix a,
@@ -10,7 +10,8 @@ body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPh
 .ipsTable.ipsMatrix.ipsClear.ipsTable_responsive .ipsMatrix_subHeader, .ipsMenu.ipsMenu_auto.ipsMenu_withStem.ipsHide, .ipsType_normal.ipsType_richText.ipsContained, 
 .cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr a[data-mentionid], .ipsAlert,
 .ipsMenu_itemCount, #elInput_status_by_member_wrapper, .ipsField_autocomplete.ipsField_fullWidth, .ipsFieldRow_content div div #elInput_topic_tags_wrapper, #topic_tags_prefix_menu,
-.ipsComment.ipsFieldRow_fullWidth.ipsAreaBackground_light.ipsPad div, .cGalleryLightbox_info, .ipsType_normal.ipsType_richText.ipsContained .ipsQuote_citation, .ipsDialog.ipsDialog_narrow div
+.ipsComment.ipsFieldRow_fullWidth.ipsAreaBackground_light.ipsPad div, .cGalleryLightbox_info, .ipsType_normal.ipsType_richText.ipsContained .ipsQuote_citation, .ipsDialog.ipsDialog_narrow div,
+.ipsMenu.ipsMenu_auto.cEmojiMenu
 {
 	color: #b1bddf !important;
 	background: #0d0d17 !important;
@@ -245,7 +246,7 @@ li, .cke_panel_grouptitle, .ipsType_richText.ipsType_medium.ipsSpacer_top.ipsSpa
 #elUserLink_menu, .ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemRight, .ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad.ipsModerated, 
 .ipsMenu.ipsMenu_wide.ipsMenu_bottomCenter, #elInput_messenger_to_results, #elNavLang_menu, .cke_ltr, .cke_dialog_body, .cke_dialog.cke_browser_gecko.cke_ltr.cke_single_page, 
 .cke_dialog_title, .cke_dialog_ui_button, .ipsEmbed_finishedLoading, .ipsMenu.ipsMenu_auto.ipsMenu_bottomCenter, .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemRight, 
-.ipsMenu, .ipsMenu_item button, .ipsMenu_headerBar
+.ipsMenu, .ipsMenu_item button, .ipsMenu_headerBar, .ipsMenu.ipsMenu_auto.cEmojiMenu li a
 {
 	border-radius: 0px !important;
 }
@@ -342,6 +343,10 @@ li, .cke_panel_grouptitle, .ipsType_richText.ipsType_medium.ipsSpacer_top.ipsSpa
 .ipsButton:hover, .ipsApp .ipsButton_veryLight:hover
 {
 	opacity: 0.66;
+}
+.ipsItemStatus.ipsItemStatus_large.cForumIcon_redirect
+{
+	opacity: 0.25;
 }
 .cke_combo a, .ipsHovercard.ipsFeedHovercard.ipsHovercard_stemTop.ipsHovercard_stemRight
 {
