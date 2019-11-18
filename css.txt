@@ -1,4 +1,4 @@
-/* PTS Granite 1.3 by Wersjon */
+/* PTS Granite 1.3_01 by Wersjon */
 /* [BGC]Color && Background */
 body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini.ipsPhotoPanel_notPhone, .ipsType_normal.ipsType_richText.ipsContained div,
 .subhead, #elProfileStats, .ipsLoading, .ipsMenu_headerBar, .ipsMenu_footerBar, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini, .ipsButtonRow.ipsClearfix a,
@@ -49,8 +49,7 @@ body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPh
 #chatBoxForm, .ipsGrid.ipsGrid_collapsePhone.ipsWidget_stats, .ipsComment_author.cAuthorPane.ipsColumn.ipsColumn_medium.ipsResponsive_hidePhone,  .ipsStreamItem_contentType,
 .ipsPageHeader, .cTopicPostArea.ipsAreaBackground.ipsPad.ipsSpacer_top, .ipsType_sectionTitle.ipsType_reset.ipsType_blendLinks, .ipsType_sectionTitle.ipsType_reset, 
 .cke_panel_grouptitle, .ipsComposeArea_editor, .ipsAreaBackground.ipsPad.ipsSpacer_bottom, #elChatbox, .ipsComment.ipsFieldRow_fullWidth.ipsAreaBackground_light.ipsPad, 
-.ipsSpoiler, .ipsSpoiler_header, #ipsLayout_contentWrapper .ipsSpoiler, .cCmsRecord_row :hover, .ipsAreaBackground.ipsPad_half .cCmsRecord_row :hover .ipsDataItem_meta, 
-.cCmsRecord_row :hover
+.ipsSpoiler, .ipsSpoiler_header, #ipsLayout_contentWrapper .ipsSpoiler, .cCmsRecord_row :hover, .ipsAreaBackground.ipsPad_half .cCmsRecord_row :hover .ipsDataItem_meta,
 {
 	background: #0D0D17 !important;
 }
@@ -110,7 +109,7 @@ ul:not( .ipsMenu_keyNav ) .ipsMenu_item:not( .ipsMenu_itemClicked ):not( .ipsMen
 .cPastLeaders_title.ipsType_sectionHead span, .ipsFieldRow_content, .ipsPad_half.ipsPhotoPanel.ipsPhotoPanel_tiny.ipsClearfix div, .ipsFieldRow.ipsFieldRow_fullWidth, 
 .ipsFieldRow a, #elInput_topic_tags_wrapper, .ipsFieldRow_content div, .ipsPos_right.ipsType_reset.ipsType_light.ipsType_blendLinks li, .ipsWidget_inner.ipsPad li,
 .ipsBox_alt.ipsPhotoPanel.ipsPhotoPanel_tiny.ipsClearfix.ipsSpacer_bottom li, .ipsClearfix.ipsRating.ipsRating_veryLarge li, .ipsPos_right.ipsType_blendLinks.ipsType_noUnderline,
-.ipsSideMenu_noCheck
+.ipsSideMenu_noCheck, .ipsUserPhoto
 {
 	background: rgba(0,0,0,0) !important;
 }
