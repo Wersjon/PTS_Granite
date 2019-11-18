@@ -49,7 +49,7 @@ body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPh
 #chatBoxForm, .ipsGrid.ipsGrid_collapsePhone.ipsWidget_stats, .ipsComment_author.cAuthorPane.ipsColumn.ipsColumn_medium.ipsResponsive_hidePhone,  .ipsStreamItem_contentType,
 .ipsPageHeader, .cTopicPostArea.ipsAreaBackground.ipsPad.ipsSpacer_top, .ipsType_sectionTitle.ipsType_reset.ipsType_blendLinks, .ipsType_sectionTitle.ipsType_reset, 
 .cke_panel_grouptitle, .ipsComposeArea_editor, .ipsAreaBackground.ipsPad.ipsSpacer_bottom, #elChatbox, .ipsComment.ipsFieldRow_fullWidth.ipsAreaBackground_light.ipsPad, 
-.ipsSpoiler, .ipsSpoiler_header, #ipsLayout_contentWrapper .ipsSpoiler, .cCmsRecord_row :hover, .ipsAreaBackground.ipsPad_half .cCmsRecord_row :hover .ipsDataItem_meta,
+.ipsSpoiler, .ipsSpoiler_header, #ipsLayout_contentWrapper .ipsSpoiler, .cCmsRecord_row :hover, .ipsAreaBackground.ipsPad_half .cCmsRecord_row :hover .ipsDataItem_meta
 {
 	background: #0D0D17 !important;
 }
