@@ -1,12 +1,13 @@
 /* ==UserStyle==
 @name           Granitowy styl - PTS
 @namespace      github.com/openstyles/stylus
-@version        1.3.2
+@version        1.4.0
 @description    Granitowy styl na forum zamiast jasnego
 @author         Wersjon
 ==/UserStyle== */
 
 @-moz-document domain("truckers.com.pl") {
+/* PTS Granite 1.4 by Wersjon */
 /* [BGC]Color && Background */
 body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini.ipsPhotoPanel_notPhone, .ipsType_normal.ipsType_richText.ipsContained div,
 .subhead, #elProfileStats, .ipsLoading, .ipsMenu_headerBar, .ipsMenu_footerBar, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini, .ipsButtonRow.ipsClearfix a,
@@ -117,7 +118,7 @@ ul:not( .ipsMenu_keyNav ) .ipsMenu_item:not( .ipsMenu_itemClicked ):not( .ipsMen
 .cPastLeaders_title.ipsType_sectionHead span, .ipsFieldRow_content, .ipsPad_half.ipsPhotoPanel.ipsPhotoPanel_tiny.ipsClearfix div, .ipsFieldRow.ipsFieldRow_fullWidth, 
 .ipsFieldRow a, #elInput_topic_tags_wrapper, .ipsFieldRow_content div, .ipsPos_right.ipsType_reset.ipsType_light.ipsType_blendLinks li, .ipsWidget_inner.ipsPad li,
 .ipsBox_alt.ipsPhotoPanel.ipsPhotoPanel_tiny.ipsClearfix.ipsSpacer_bottom li, .ipsClearfix.ipsRating.ipsRating_veryLarge li, .ipsPos_right.ipsType_blendLinks.ipsType_noUnderline,
-.ipsSideMenu_noCheck, .ipsUserPhoto
+.ipsSideMenu_noCheck, .ipsUserPhoto, .ipsDataItem_main *:hover, .ipsDataItem_stats *:hover, .ipsDataItem_lastPoster.ipsDataItem_withPhoto.ipsType_blendLinks *:hover
 {
 	background: rgba(0,0,0,0) !important;
 }
@@ -209,7 +210,8 @@ ul:not( .ipsMenu_keyNav ) .ipsMenu_item:not( .ipsMenu_itemClicked ):not( .ipsMen
 .ipsType_sectionTitle.ipsType_medium.ipsType_reset.ipsClear span, .ipsButton.ipsButton_light.ipsButton_small.ipsButton_fullWidth, .ipsPageHeader h1, #elConvoActions, 
 .ipsDialog h3, .ipsType_pageTitle, .ipsSideMenu_title, .ipsPad_double a, .ipsType_sectionHead, .ipsButton span, .ipsType_reset.ipsPad_half.ipsType_right.ipsType_light.ipsType_small, 
 .ipsButton.ipsButton_verySmall.ipsButton_light.ipsButton_fullWidth, .ipsTabs_panel h2, .ipsDialog_title, .ipsApp .ipsButton_veryLight, .ipsCode.prettyprint.lang-css.prettyprinted span, 
-h3.ipsType_reset.ipsTruncate.ipsTruncate_line, .ipsType_veryLarge 
+h3.ipsType_reset.ipsTruncate.ipsTruncate_line, .ipsType_veryLarge, span[style="color:red; font-weight: bold;"]:hover, span[style="color: #009400; font-weight:bold"]:hover,
+span[style="color:#7D26CD; font-weight: bold;"]:hover, span[style="color:#f9920d; font-weight: bold;"]:hover, span[style="color:#ff6633"]:hover, span[style="color:#1E90FF; font-weight: bold;"]:hover
 {
 	color: white !important;
 }
@@ -360,7 +362,7 @@ li, .cke_panel_grouptitle, .ipsType_richText.ipsType_medium.ipsSpacer_top.ipsSpa
 .ipsComposeArea_editor::before, .ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomRight::before, .ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomRight::after, .ipsMenu::after, 
 .ipsTooltip.ipsTooltip_bottom.ipsComment_inlineQuoteTooltip:before, .ipsTooltip.ipsTooltip_bottom.ipsComment_inlineQuoteTooltip:after, .ipsHovercard_stem,
 .ipsMenu.ipsMenu_auto.ipsMenu_bottomCenter::before, .ipsMenu.ipsMenu_auto.ipsMenu_bottomCenter::after, .ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad:before,
-.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad:after
+.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad:after, .row2
 {
 	display: none !important;
 }
@@ -405,5 +407,47 @@ li, .cke_panel_grouptitle, .ipsType_richText.ipsType_medium.ipsSpacer_top.ipsSpa
 #elSearch, .ipsType_reset.ipsType_sectionHead.ipsTruncate.ipsTruncate_line.ipsType_blendLinks
 {
 	z-index: 125;
+}
+span[style="color:red; font-weight: bold;"]
+{
+	background: linear-gradient(to top,  rgba(255, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 95%);
+	padding: 3px;
+	border-radius: 4px;
+	text-shadow: black 0px 0px 5px, black 0px 0px 5px;
+}
+span[style="color: #009400; font-weight:bold"]
+{
+	background: linear-gradient(to top,  rgba(0, 148, 0, 0.25) 0%, rgba(0, 0, 0, 0) 95%);
+	padding: 3px;
+	border-radius: 4px;
+	text-shadow: black 0px 0px 5px, black 0px 0px 5px;
+}
+span[style="color:#7D26CD; font-weight: bold;"]
+{
+	background: linear-gradient(to top,  rgba(125, 38, 205, 0.25) 0%, rgba(0, 0, 0, 0) 95%);
+	padding: 3px;
+	border-radius: 4px;
+	text-shadow: black 0px 0px 5px, black 0px 0px 5px;
+}
+span[style="color:#f9920d; font-weight: bold;"]
+{
+	background: linear-gradient(to top,  rgba(249, 146, 13, 0.25) 0%, rgba(0, 0, 0, 0) 95%);
+	padding: 3px;
+	border-radius: 4px;
+	text-shadow: black 0px 0px 5px, black 0px 0px 5px;
+}
+span[style="color:#ff6633"]
+{
+	background: linear-gradient(to top,  rgba(255, 102, 51, 0.25) 0%, rgba(0, 0, 0, 0) 95%);
+	padding: 3px;
+	border-radius: 4px;
+	text-shadow: black 0px 0px 5px, black 0px 0px 5px;
+}
+span[style="color:#1E90FF; font-weight: bold;"]
+{
+	background: linear-gradient(to top,  rgba(30, 144, 255, 0.25) 0%, rgba(0, 0, 0, 0) 95%);
+	padding: 3px;
+	border-radius: 4px;
+	text-shadow: black 0px 0px 5px, black 0px 0px 5px;
 }
 }
