@@ -109,8 +109,7 @@ ul:not( .ipsMenu_keyNav ) .ipsMenu_item:not( .ipsMenu_itemClicked ):not( .ipsMen
 .cPastLeaders_title.ipsType_sectionHead span, .ipsFieldRow_content, .ipsPad_half.ipsPhotoPanel.ipsPhotoPanel_tiny.ipsClearfix div, .ipsFieldRow.ipsFieldRow_fullWidth, 
 .ipsFieldRow a, #elInput_topic_tags_wrapper, .ipsFieldRow_content div, .ipsPos_right.ipsType_reset.ipsType_light.ipsType_blendLinks li, .ipsWidget_inner.ipsPad li,
 .ipsBox_alt.ipsPhotoPanel.ipsPhotoPanel_tiny.ipsClearfix.ipsSpacer_bottom li, .ipsClearfix.ipsRating.ipsRating_veryLarge li, .ipsPos_right.ipsType_blendLinks.ipsType_noUnderline,
-.ipsSideMenu_noCheck, .ipsUserPhoto, .cCmsRecord_row.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread .ipsDataItem_stats *:hover, .ipsDataItem_lastPoster.ipsDataItem_withPhoto.ipsType_blendLinks *:hover, 
-.cCmsRecord_row.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread .ipsDataItem_main *:hover
+.ipsSideMenu_noCheck, .ipsUserPhoto, .ipsDataItem_stats *:hover, .ipsDataItem_lastPoster.ipsDataItem_withPhoto.ipsType_blendLinks *:hover
 {
 	background: rgba(0,0,0,0) !important;
 }
@@ -189,7 +188,7 @@ ul:not( .ipsMenu_keyNav ) .ipsMenu_item:not( .ipsMenu_itemClicked ):not( .ipsMen
 }
 
 /* [C]Colors */
-.ipsPagination_page a, .ipsPagination_next a, .ipsPagination_last a, .ipsPagination_prev a, .ipsPagination_first a, a, .ipsBox_alt.ipsType_normal.ipsType_richText.ipsPad, 
+.ipsPagination_page a, .ipsPagination_next a, .ipsPagination_last a, .ipsPagination_prev a, .ipsPagination_first a, .ipsBox_alt.ipsType_normal.ipsType_richText.ipsPad, 
 .ipsType_normal.ipsType_richText.ipsPad.ipsBox, .cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr div, .ipsButton.ipsButton_fullWidth.ipsButton_light,
 .ipsType_richText.ipsType_normal p, .ipsBreadcrumb.ipsBreadcrumb_top.ipsFaded_withHover li, .ipsBreadcrumb.ipsBreadcrumb_bottom.ipsFaded_withHover li, .ipsType_richText.ipsType_small,
 .CodeMirror.cm-s-default.CodeMirror-wrap, .ipsWidget_inner  table, #elSearchField, .cSearchSubmit, .ipsComposeArea_dummy.ipsType_light, .ipsContained p, #cbInput_container input, 
@@ -224,6 +223,10 @@ li, .cke_panel_grouptitle, .ipsType_richText.ipsType_medium.ipsSpacer_top.ipsSpa
 .ipsColumn.ipsColumn_fluid.ipsType_blendLinks div, .ipsColumn.ipsColumn_fluid.ipsType_blendLinks p
 {
 	color: #b1bddf;
+}
+a
+{
+	color: white;
 }
 .com
 {
@@ -441,4 +444,9 @@ span[style="color:#1E90FF; font-weight: bold;"]
 	padding: 3px;
 	border-radius: 4px;
 	text-shadow: black 0px 0px 5px, black 0px 0px 5px;
+}
+a[class="ipsType_break"]
+{
+	color: white;
+	font-weight: bold;
 }
