@@ -1,4 +1,4 @@
-/* PTS Granite 1.4_01 by Wersjon */
+/* PTS Granite 1.4_03 by Wersjon */
 /* [BGC]Color && Background */
 body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini.ipsPhotoPanel_notPhone, .ipsType_normal.ipsType_richText.ipsContained div,
 .subhead, #elProfileStats, .ipsLoading, .ipsMenu_headerBar, .ipsMenu_footerBar, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini, .ipsButtonRow.ipsClearfix a,
@@ -353,6 +353,10 @@ a
 	top: -13px;
 }
 /* [R] Rest / Weirdos */
+.ipsWidget.ipsWidget_horizontal.ipsBox a[class="ipsType_break"]
+{
+	font-weight: normal;
+}
 .ipsType_reset.ipsWidget_title::after, .ipsCommentCount::after, .ipsColumn.ipsColumn_fluid .ipsComment_content.ipsType_medium.ipsFaded_withHover::before, .ipsMenu::before,
 .ipsComposeArea_editor::before, .ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomRight::before, .ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomRight::after, .ipsMenu::after, 
 .ipsTooltip.ipsTooltip_bottom.ipsComment_inlineQuoteTooltip:before, .ipsTooltip.ipsTooltip_bottom.ipsComment_inlineQuoteTooltip:after, .ipsHovercard_stem,
