@@ -1,4 +1,4 @@
-/* PTS Granite 1.4_03 by Wersjon */
+/* PTS Granite 1.5 by Wersjon */
 /* [BGC]Color && Background */
 body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini.ipsPhotoPanel_notPhone, .ipsType_normal.ipsType_richText.ipsContained div,
 .subhead, #elProfileStats, .ipsLoading, .ipsMenu_headerBar, .ipsMenu_footerBar, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini, .ipsButtonRow.ipsClearfix a,
@@ -38,11 +38,6 @@ body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPh
 {
 	background: #b1bddf;
 	color: #0d0d17 !important;
-}
-.ipsType_break.ipsContained:hover span, .ipsHovercard.ipsFeedHovercard.ipsHovercard_stemTop.ipsHovercard_stemRight
-{
-	background: rgba(0,0,0,0);
-	color: white;
 }
 
 /* [BG]Backgrounds */
@@ -361,7 +356,7 @@ a
 .ipsComposeArea_editor::before, .ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomRight::before, .ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomRight::after, .ipsMenu::after, 
 .ipsTooltip.ipsTooltip_bottom.ipsComment_inlineQuoteTooltip:before, .ipsTooltip.ipsTooltip_bottom.ipsComment_inlineQuoteTooltip:after, .ipsHovercard_stem,
 .ipsMenu.ipsMenu_auto.ipsMenu_bottomCenter::before, .ipsMenu.ipsMenu_auto.ipsMenu_bottomCenter::after, .ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad:before,
-.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad:after, .row2
+.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad:after, .row2, a[href="/monitoring/samp"]
 {
 	display: none !important;
 }
@@ -453,4 +448,13 @@ a[class="ipsType_break"]
 {
 	color: white;
 	font-weight: bold;
+}
+a[data-ipshover=""], a[data-action="mention"], a[href="https://truckers.com.pl/search/?type=core_members&group[3]=1"]
+{
+	color: #4848c2;
+}
+.ipsType_break.ipsContained:hover span, .ipsHovercard.ipsFeedHovercard.ipsHovercard_stemTop.ipsHovercard_stemRight, a[class=""], a[class="ipsType_blendLinks ipsType_noUnderline"]
+{
+	background: rgba(0,0,0,0);
+	color: white;
 }
