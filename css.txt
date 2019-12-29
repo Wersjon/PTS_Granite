@@ -1,4 +1,4 @@
-/* PTS Granite 1.5_01 by Wersjon */
+/* PTS Granite 1.5_02 by Wersjon */
 /* [BGC]Color && Background */
 body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini.ipsPhotoPanel_notPhone, .ipsType_normal.ipsType_richText.ipsContained div,
 .subhead, #elProfileStats, .ipsLoading, .ipsMenu_headerBar, .ipsMenu_footerBar, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini, .ipsButtonRow.ipsClearfix a,
@@ -44,7 +44,7 @@ body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPh
 #chatBoxForm, .ipsGrid.ipsGrid_collapsePhone.ipsWidget_stats, .ipsComment_author.cAuthorPane.ipsColumn.ipsColumn_medium.ipsResponsive_hidePhone,  .ipsStreamItem_contentType,
 .ipsPageHeader, .cTopicPostArea.ipsAreaBackground.ipsPad.ipsSpacer_top, .ipsType_sectionTitle.ipsType_reset.ipsType_blendLinks, .ipsType_sectionTitle.ipsType_reset, 
 .cke_panel_grouptitle, .ipsComposeArea_editor, .ipsAreaBackground.ipsPad.ipsSpacer_bottom, #elChatbox, .ipsComment.ipsFieldRow_fullWidth.ipsAreaBackground_light.ipsPad, 
-.ipsSpoiler, .ipsSpoiler_header, #ipsLayout_contentWrapper .ipsSpoiler, .cCmsRecord_row :hover, .ipsAreaBackground.ipsPad_half .cCmsRecord_row :hover .ipsDataItem_meta
+.ipsSpoiler, .ipsSpoiler_header, #ipsLayout_contentWrapper .ipsSpoiler, .cCmsRecord_row :hover, .ipsAreaBackground.ipsPad_half .cCmsRecord_row :hover .ipsDataItem_meta, a[data-mentionid]
 {
 	background: #0D0D17 !important;
 }
@@ -81,7 +81,7 @@ body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPh
 ul:not( .ipsMenu_keyNav ) .ipsMenu_item:not( .ipsMenu_itemClicked ):not( .ipsMenu_itemDisabled ) a:not( .ipsMenu_itemInline ):hover, .ipsMenu_item[data-selected] a, 
 .ipsMenu_item.ipsMenu_hover, .ipsSideMenu_item:hover, .ipsMenu_innerContent.ipsDataItem.ipsDataItem_unread div, .ipsSideMenu_item:hover a, .cke_button_on, #cke_35 span a:hover, 
 .ipsAutocompleteMenu_item.ipsClearfix:hover div, .ipsAutocompleteMenu_item.ipsClearfix:hover, .ipsDataItem.ipsDataItem_responsivePhoto:hover div, .ipsDataItem.ipsDataItem_responsivePhoto:hover ul, 
-.ipsDataItem.ipsClearfix.ipsDataItem_unread.cMessage div, #cke_794_uiElement, .cke_dialog_ui_button, a[data-mentionid], .cke_colorauto, .cke_colormore, .cke_button.cke_button_on, 
+.ipsDataItem.ipsClearfix.ipsDataItem_unread.cMessage div, #cke_794_uiElement, .cke_dialog_ui_button, .cke_colorauto, .cke_colormore, .cke_button.cke_button_on, 
 .ipsReact_button:hover, .ipsSpoiler_contents.cke_widget_editable, #dupa tr:nth-child(2n+1), .ipsEmoticons_item:hover, .ipsTabs_item.ipsType_center:hover, .ipsButton:hover, 
 .ipsCode, .ipsButtonBar li a:hover, .ipsPagination li:hover a, .ipsList_reset li .ipsSelectTree_item:hover, .ipsButtonRow.ipsPos_right.ipsClearfix li .ipsCursor_pointer.ipsButtonRow_active,
 .ipsTabs_item.ipsType_center.ipsTabs_activeItem, .ipsToggle.ipsToggle_off, .cRelease.cRelease_active, .cRelease.cRelease_active .ipsDataItem_meta, .ipsAreaBackground.ipsPad_half .cRelease.cRelease_active:hover .ipsDataItem_meta
