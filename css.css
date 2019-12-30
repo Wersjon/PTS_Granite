@@ -1,4 +1,4 @@
-/* PTS Granite 1.5_03 by Wersjon */
+/* PTS Granite 1.5_04 by Wersjon */
 /* [BGC]Color && Background */
 body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini.ipsPhotoPanel_notPhone, .ipsType_normal.ipsType_richText.ipsContained div,
 .subhead, #elProfileStats, .ipsLoading, .ipsMenu_headerBar, .ipsMenu_footerBar, .ipsComment_header.ipsPhotoPanel.ipsPhotoPanel_mini, .ipsButtonRow.ipsClearfix a,
@@ -23,7 +23,7 @@ body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPh
 	background: #0D0D17 !important;
 	color: white !important;
 }
-.ipsTabs_item.ipsTabs_activeItem, .ipsRichEmbed_header
+.ipsTabs_item.ipsTabs_activeItem, .ipsRichEmbed_header, .CodeMirror.cm-s-default.CodeMirror-wrap div
 {
 	background: #181e37 !important;
 	color: #b1bddf;
@@ -57,7 +57,8 @@ body, .ipsPageHeader.ipsClearfix, select, .ipsComment_header.ipsPhotoPanel.ipsPh
 .cke_panel_block.cke_colorblock table td:hover a, .cke_colorauto:hover, .ipsHide.ipsMenu.ipsMenu_normal.ipsPad_half.cTagPopup.ipsMenu_topCenter, #dupa tr:nth-child(2n), 
 .ipsPad_half.ipsList_reset.ipsGrid.ipsGrid_collapsePhone, .ipsComment_content.ipsType_medium.ipsFaded_withHover, .cPost_contentWrap.ipsPad .ipsType_normal.ipsType_richText.ipsContained,
 .ipsDataItem_generic.ipsDataItem_size2.ipsType_center.ipsResponsive_hidePhone, .ipsButtonRow.ipsPos_right.ipsClearfix li .ipsCursor_pointer, .ipsStreamItem_snippet .ipsType_normal.ipsType_richText.ipsContained, 
-.ipsDataItem_main.ipsType_medium.ipsType_break div p *, .ipsDialog div, .ipsAreaBackground.ipsPad.ipsBox.ipsBox_transparent.ipsSpacer_bottom.ipsRecommendedComments, .ipsAreaBackground.ipsPad_half .ipsDataItem_meta
+.ipsDataItem_main.ipsType_medium.ipsType_break div p *, .ipsDialog div, .ipsAreaBackground.ipsPad.ipsBox.ipsBox_transparent.ipsSpacer_bottom.ipsRecommendedComments, .ipsAreaBackground.ipsPad_half .ipsDataItem_meta,
+.ipsComposeArea_dropZone.ipsComposeArea_dropZoneSmall.ipsClearfix.ipsDragging
 {
 	background: #11121f !important;  
 }
@@ -135,7 +136,7 @@ ul:not( .ipsMenu_keyNav ) .ipsMenu_item:not( .ipsMenu_itemClicked ):not( .ipsMen
 }
 
 /* [BGR]Background && Rest */
-.cke_combo_off a.cke_combo_button:active, .cke_combo_on a.cke_combo_button, .ipsButton.ipsButton_link.ipsButton_verySmall
+.cke_combo_off a.cke_combo_button:active, .cke_combo_on a.cke_combo_button, .ipsButton.ipsButton_link.ipsButton_verySmall,  .ipsButton.ipsButton_link.ipsButton_verySmall
 {
 	background:#181e37 !important;
 	border:1px solid #0d0d17 !important;
@@ -220,7 +221,7 @@ li, .cke_panel_grouptitle, .ipsType_richText.ipsType_medium.ipsSpacer_top.ipsSpa
 {
 	color: #b1bddf;
 }
-a
+a, .ipsMenu.ipsMenu_normal a, .ipsButton.ipsButton_light, .ipsDialog_close
 {
 	color: white;
 }
@@ -258,7 +259,7 @@ a
 {
 	border-radius: 0px !important;
 }
-.ipsDataItem, #elCheck_menu li, .ipsMenu_sep, .ipsMenu_title, .ipsReact_types
+.ipsDataItem, #elCheck_menu li, .ipsMenu_sep, .ipsMenu_title, .ipsReact_types, .ipsComposeArea_dropZone.ipsComposeArea_dropZoneSmall.ipsClearfix.ipsDragging
 {
 	border-color: #242840 !important;
 }
@@ -450,7 +451,7 @@ a[class="ipsType_break"]
 	color: white;
 	font-weight: bold;
 }
-a[data-ipshover=""], a[data-action="mention"], a[href="https://truckers.com.pl/search/?type=core_members&group[3]=1"]
+a[data-ipshover=""], a[data-action="mention"], a[href="https://truckers.com.pl/search/?type=core_members&group[3]=1"], .ipsQuote_citation.ipsQuote_open a
 {
 	color: #3d6594;
 	font-weight: bold;
