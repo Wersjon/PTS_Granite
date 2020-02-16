@@ -479,3 +479,32 @@ a[data-ipshover=""], a[data-action="mention"], a[href="https://truckers.com.pl/s
 	font-weight: bold;
 }
 }
+@-moz-document domain("orders.mta.truckers.com.pl") {
+/* PTS Granite 1.4 by Wersjon */
+p
+{
+	text-shadow: none !important;
+	color: #b1bddf !important;
+}
+.progress
+{
+	background: #0d0d17;
+	border-radius: 0px;
+	border: 2px solid black;
+	height: 24px;
+}
+.progress-bar.progress-bar-striped
+{
+	background: #b1bddf;
+	box-shadow: inset 0px 0px 5px black;
+}
+.progress-bar
+{
+	color: black;
+	font-weight: bold;
+}
+.progress-bar.progress-bar-striped.progress-bar-success
+{
+	background: #88ffAA;
+}
+}
