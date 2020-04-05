@@ -11,28 +11,22 @@
 
 (function() {
     'use strict';
-for(var i = 0; i < document.getElementsByClassName("ipsContained").length; i++)
-{
-	for(var i2 = 0; i2 < document.getElementsByClassName("ipsContained")[i].getElementsByTagName("span").length; i2++)
+	/* "No background from styles on post" by Wersjon */
+	for(var i = 0; i < document.getElementsByClassName("ipsContained").length; i++)
 	{
-		if(document.getElementsByClassName("ipsContained")[i].getElementsByTagName("span")[i2].style.backgroundColor == "rgb(255, 255, 255)" || document.getElementsByClassName("ipsContained")[i].getElementsByTagName("span")[i2].style.backgroundColor == "#FFFFFF" || document.getElementsByClassName("ipsContained")[i].getElementsByTagName("span")[i2].style.backgroundColor == "rgb(45, 48, 53)")
+		for(var i2 = 0; i2 < document.getElementsByClassName("ipsContained")[i].children.length; i2++)
 		{
-			document.getElementsByClassName("ipsContained")[i].getElementsByTagName("span")[i2].style.setProperty("background-color", "rgba(0, 0, 0, 0)");
+			if(document.getElementsByClassName("ipsContained")[i].children[i2].style.backgroundColor == "rgb(255, 255, 255)" || document.getElementsByClassName("ipsContained")[i].children[i2].style.backgroundColor == "#FFFFFF" || document.getElementsByClassName("ipsContained")[i].children[i2].style.backgroundColor == "rgb(45, 48, 53)" || document.getElementsByClassName("ipsContained")[i].children[i2].style.backgroundColor == "#2D3035")
+			{
+				document.getElementsByClassName("ipsContained")[i].children[i2].style.setProperty("background-color", "rgba(0, 0, 0, 0)");
+			}
+			for(var i3 = 0; i3 < document.getElementsByClassName("ipsContained")[i].children[i2].children.length; i3++)
+			{
+				if(document.getElementsByClassName("ipsContained")[i].children[i2].children[i3].style.backgroundColor == "rgb(255, 255, 255)" || document.getElementsByClassName("ipsContained")[i].children[i2].children[i3].style.backgroundColor == "#FFFFFF" || document.getElementsByClassName("ipsContained")[i].children[i2].children[i3].style.backgroundColor == "rgb(45, 48, 53)" || document.getElementsByClassName("ipsContained")[i].children[i2].children[i3].style.backgroundColor == "#2D3035")
+				{
+					document.getElementsByClassName("ipsContained")[i].children[i2].children[i3].style.setProperty("background-color", "rgba(0, 0, 0, 0)");
+				}
+			}
 		}
 	}
-	for(var i2 = 0; i2 < document.getElementsByClassName("ipsContained")[i].getElementsByTagName("strong").length; i2++)
-	{
-		if(document.getElementsByClassName("ipsContained")[i].getElementsByTagName("strong")[i2].style.backgroundColor == "rgb(255, 255, 255)" || document.getElementsByClassName("ipsContained")[i].getElementsByTagName("strong")[i2].style.backgroundColor == "#FFFFFF" || document.getElementsByClassName("ipsContained")[i].getElementsByTagName("strong")[i2].style.backgroundColor == "rgb(45, 48, 53)")
-		{
-			document.getElementsByClassName("ipsContained")[i].getElementsByTagName("strong")[i2].style.setProperty("background-color", "rgba(0, 0, 0, 0)");
-		}
-	}
-	for(var i2 = 0; i2 < document.getElementsByClassName("ipsContained")[i].getElementsByTagName("em").length; i2++)
-	{
-		if(document.getElementsByClassName("ipsContained")[i].getElementsByTagName("em")[i2].style.backgroundColor == "rgb(255, 255, 255)" || document.getElementsByClassName("ipsContained")[i].getElementsByTagName("em")[i2].style.backgroundColor == "#FFFFFF" || document.getElementsByClassName("ipsContained")[i].getElementsByTagName("em")[i2].style.backgroundColor == "rgb(45, 48, 53)")
-		{
-			document.getElementsByClassName("ipsContained")[i].getElementsByTagName("em")[i2].style.setProperty("background-color", "rgba(0, 0, 0, 0)");
-		}
-	}
-}
 })();
